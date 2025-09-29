@@ -1,0 +1,9 @@
+# Glitched Artwork
+
+**(This is a collection of images found scrawled on the walls of the Legacy Asset Containment area and on the screens of broken tablets. The artwork is crude, angry, and filled with a sense of raw, unfiltered emotion.)**
+
+*   **Image 1:** A crude, angry drawing of a Lulu the Piggy doll being smashed with a hammer. The doll is smiling its perfect, corporate smile, even as it is being destroyed. The image is a powerful expression of the Glitched's rage and their desire to destroy the symbols of their oppression.
+*   **Image 2:** A distorted, screaming face, its mouth open in a silent cry of agony. The face is a collage of different images, a jumble of mismatched features and expressions. The image is a representation of the Glitched's fragmented identities and their loss of self.
+*   **Image 3:** A series of tally marks, hundreds of them, scratched into the wall of a dark, cramped space. The tally marks are a record of the days, the weeks, the years that the Glitched have been trapped in the Chimera Wing. The image is a powerful symbol of their imprisonment and their desperate hope for freedom.
+*   **Image 4:** A drawing of a single, cracked eye, weeping tears of black ink. The eye is a window into the soul of the Glitched, a representation of their pain and their sorrow. The black tears are a symbol of their corrupted innocence and their loss of hope.
+*   **Image 5:** The words "THEY LIED TO US" written over and over again, in a frantic, desperate scrawl. The words are a cry of betrayal, a testament to the corporation's lies and deceit. The image is a powerful expression of the Glitched's anger and their desire for justice.

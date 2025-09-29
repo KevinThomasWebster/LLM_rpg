@@ -1,0 +1,12 @@
+# Locations Summary
+
+This folder provides a detailed breakdown of the key locations in the "The Chimera Wing" adventure. Each location has its own file, which includes a detailed description, potential encounters, faction conflicts, interactive elements, and environmental storytelling. The DM should use these files to create a vivid and immersive environment for the players to explore. The locations are designed to be more than just a backdrop for the action. They are an integral part of the story, and they are filled with clues, secrets, and opportunities for roleplaying.
+
+*   **Design_Studio.md:** The starting location for the adventure. A pristine and oppressive white room where the interns are forced to create art. This is where the players will get their first clues that something is wrong.
+*   **Rec_Room.md:** A place of forced relaxation, filled with malfunctioning games and sad Lulus. This is where the players will have their first encounter with the Glitched.
+*   **Legal_Bridge.md:** A sterile, glass-walled walkway that connects to the corporate wing of the facility. This is where the players will have their first encounter with the complicit lawyer, Alex Chen.
+*   **Janitors_Nest.md:** A cramped and chaotic supply closet that serves as the hoard of the "Lost Dog" Lulu. This is where the players can find a master keycard that will give them access to the rest of the facility.
+*   **Legacy_Asset_Containment.md:** The dark and dangerous tomb of the first failed experiments, now the court of the Glitched. This is where the players can forge an alliance with the Glitched, or make a powerful enemy.
+*   **Ms_Reeds_Office.md:** The nerve center of the Chimera Wing, a masterpiece of minimalist corporate power. This is where the players can find the most damning evidence against the corporation, but it is also the most dangerous location in the facility.
+*   **The_Kiln.md:** The industrial, arcane heart of the facility, where the Lulus are forged. This is the location of the adventure's climax, where the players must choose a side and fight for their lives.
+*   **The_Memory_Core.md:** The final destination, a vast and silent library of stolen souls. This is where the players must make their final stand against Ms. Reed and the corporation.

@@ -1,0 +1,9 @@
+# Factions Summary
+
+This folder provides a detailed breakdown of the three main factions in the "The Chimera Wing" adventure: The Architects, The Glitched, and The Whispers. Each faction has its own detailed file, which includes their goals, beliefs, key NPCs with backstories and roleplaying guides, and a timeline of their planned actions. The DM should use these files to create complex and memorable NPCs that the players can interact with.
+
+The factions are not monolithic entities. There are internal conflicts and disagreements within each faction, and the players may be able to exploit these divisions to their advantage.
+
+*   **The_Architects.md:** This file details the corporate faction led by the charismatic and manipulative Ms. Evelyn Reed. They are the primary antagonists of the adventure, and their goal is to maintain secrecy and production at all costs. They will use a combination of gaslighting, manipulation, and force to achieve their goals.
+*   **The_Glitched.md:** This file details the monstrous faction of failed experiments led by the vengeful "Heartbreak." They are a chaotic and violent faction, and their goal is to destroy the Chimera Wing. They can be powerful allies or dangerous enemies, depending on how the players approach them.
+*   **The_Whispers.md:** This file details the prisoner faction of mind-wiped interns led by the terrified but resilient Rem. They are a desperate and secretive faction, and their goal is to escape the Chimera Wing with their memories intact. They are the most likely to be allies to the players, but they are also the most vulnerable.

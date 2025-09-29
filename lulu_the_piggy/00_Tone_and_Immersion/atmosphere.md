@@ -1,0 +1,24 @@
+# Atmosphere
+
+The Chimera Wing has a deliberately unsettling and sterile atmosphere. The air is always slightly too cold and smells of antiseptic and ozone. The lighting is flat and shadowless, creating a sense of being watched. The silence is often punctuated by the soft, unnerving hum of machinery and the distant, cheerful jingles of the Lulu the Piggy brand.
+
+The color palette is dominated by stark whites, blacks, and greys, with occasional splashes of corporate-approved pastels. The overall feeling is one of oppressive order and forced cheerfulness, a thin veneer over a deep and disturbing wrongness.
+
+## Sensory Details by Location
+
+*   **The Design Studio:** The air is thick with the smell of ozone and hot plastic from the constantly running computer terminals. The only sounds are the soft hum of the machines, the gentle *swoosh* of the pneumatic tubes, and the almost imperceptible scratching of the Resonance Styluses on the tablets. The light is a cold, sterile white that seems to bleach all the color from the room.
+*   **The Rec Room:** The overwhelming smell is of stale, sugary cereal and burnt cookies. The maddeningly upbeat corporate jingle plays on a constant loop, occasionally punctuated by the sad, glitching noises of the "Lost Dog" janitor Lulu. The room is filled with a harsh, fluorescent light that makes the bright colors of the beanbag chairs and ping-pong table seem garish and wrong.
+*   **The Legal Bridge:** This area is unnaturally silent and still. The air has no discernible smell, and the only sound is the echo of your own footsteps on the polished marble floor. The light is a blinding glare, reflected off the polished white marble floors and the glass walls.
+*   **The Janitor's Nest:** The small closet is hot and stuffy, with the smell of dust, old paper, and decay. The only light comes from a single, flickering bulb, and the only sound is the soft, sad humming of the "Lost Dog" Lulu. The air is thick and heavy, and it feels difficult to breathe.
+*   **Legacy Asset Containment:** The air is cold and stale, with the metallic tang of old blood and dried ink. The only sound is the rhythmic *scrape, scrape, scrape* of porcelain on concrete, echoing from the darkness. The space is shrouded in deep shadows, with only a few, flickering lights to illuminate the monstrous shapes of the decommissioned Lulus.
+*   **Ms. Reed's Office:** The air is cold and smells faintly of lavender and ozone. The room is unnervingly silent, with the panoramic window acting as a one-way mirror, allowing Ms. Reed to observe the Design Studio without being seen. The light is soft and indirect, creating a sense of calm and control.
+*   **The Kiln:** The heat is intense, and the air is thick with the smell of hot metal, ozone, and burnt cinnamon. The room is filled with the deafening roar of the forge and the blaring of emergency klaxons. The space is bathed in the pulsing red light of the emergency strobes, casting everything in a hellish glow.
+*   **The Memory Core:** The room is kept at a near-freezing temperature. The only light comes from the soft, multi-colored glow of the thousands of memory jars, and the only sound is a faint, almost inaudible hum. The air is still and heavy, and it feels like you are in a sacred, yet deeply profane, place.
+
+## Psychological Atmosphere
+
+*   **Sense of Exposure:** The sterile, white, and brightly lit environments of the Design Studio and the Legal Bridge create a sense of constant observation and exposure. There is nowhere to hide, and the players will feel as if they are constantly being watched.
+*   **Forced Cheerfulness:** The bright colors, upbeat music, and motivational posters of the Rec Room and the Design Studio create a sense of forced cheerfulness that is deeply unsettling. It's a thin veneer of happiness over a dark and disturbing reality, and the players will feel the wrongness of it in their bones.
+*   **Oppressive Silence:** The unnatural silence of the Legal Bridge and Ms. Reed's Office creates a sense of tension and unease. It's a silence that feels heavy and watchful, and the players will feel as if they are holding their breath, waiting for something terrible to happen.
+*   **Lingering Sadness:** The Janitor's Nest and the Rec Room are filled with a profound sense of sadness and decay. These are places where things go to be forgotten, and the atmosphere reflects that. The players will feel a sense of pity for the sad, broken Lulus that inhabit these spaces.
+*   **Primal Fear:** The Legacy Asset Containment area is designed to inspire primal fear. It is dark, chaotic, and filled with monstrous shapes and unsettling sounds. The players will feel a sense of dread and foreboding as they explore this area, and they will be constantly on edge, expecting an attack at any moment.

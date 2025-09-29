@@ -1,0 +1,407 @@
+Encounter 1: The Design Studio
+Location Description:
+The Design Studio is a pristine, oppressively white room where rows of sleek, black digital workstations sit in perfect alignment under the cold, shadowless glare of recessed ceiling lights. The silence is unnatural, a vacuum broken only by the soft, electric hum of the computers and the periodic, startling swoosh of a pneumatic tube sucking a tablet away for processing. The only color comes from unsettlingly cheerful motivational posters ("Pour Yourself Into Your Work!"). In the center of the room, the "Blue Ribbon" Lulu paints its prize-winning picture over and over, its movements perfectly fluid and utterly soulless. Ms. Reed's silhouette is a constant, watchful presence from her elevated, glass-walled office.
+________________________________________
+Main Encounter: "The Hidden Journal"
+This is the primary, time-sensitive event in the room.
+•	Phase 1: The Signal: The players must notice Rem, a "Blank Slate," who is pretending to clean a nearby workstation. She cannot speak, but will use frantic glances to point them towards a specific tablet (belonging to a former intern named Alex) just as the "First Day Jitters" automaton begins its patrol to collect and wipe all the tablets in the room. This requires a Passive Perception (DC 13) or a Wisdom (Insight) check (DC 12) to understand her intent.
+•	Phase 2: The Diversion: Before "First Day Jitters" reaches Alex's desk, the players must create a diversion significant enough to draw Ms. Reed's attention. This could be a staged argument (Charisma (Deception) DC 14), faking a workstation malfunction using a character ability, or another creative solution.
+•	Phase 3: The Action & Consequences: During the diversion, a player must sneak to the desk and grab the tablet (Dexterity (Sleight of Hand) DC 13). If successful, they acquire the tablet containing "Rem's Journal." If they fail, Ms. Reed calmly calls them out over the intercom, and they are now on her watch list, losing Rem as a potential contact.
+________________________________________
+Parallel Architect Tasks
+While the main encounter unfolds, Ms. Reed may assign these tasks to add pressure, test the players, or simply maintain the creepy corporate atmosphere.
+•	Memory Calibration: Ms. Reed asks a player to focus on a simple, happy memory (like eating ice cream) and draw it. The tablet provides haptic feedback, and a meter on the screen measures their "Emotional Resonance." It’s a test to see how potent their memories are.
+•	Case Study Analysis: A player is given a Lulu figurine (a graduate's final project) and asked to hold it and "analyze its core emotional truth" for a report. When they touch it, they get a brief, jarring flash of a memory that isn't their own (e.g., the pride of hitting a home run, the fear of being lost in a crowd).
+•	The Ideation Prompt: Ms. Reed announces a new design prompt over the intercom: "Design a Lulu that embodies the concept of 'Willing Compliance'." She then watches the players intently to see how they interpret this deeply unsettling assignment.
+________________________________________
+Side Quest: "The Empathy Lock"
+The players discover a featureless white lockbox on Alex's desk that can only be opened by a drawing. A hidden note reveals the "password" is a complex, contradictory emotion: the "Ambiguous Grief" of finding a lost photo of a loved one. To open it, two players must collaborate on a single drawing, simultaneously channeling both the joy of rediscovery and the pain of loss, requiring successful skill checks to authenticate the "Foundational Experience."
+•	Solution: Two players must collaborate on the drawing. One makes a Charisma (Performance) check (DC 14) to channel a memory of happy nostalgia, while the other makes a separate Charisma (Performance) check (DC 14) to channel a memory of deep, personal loss.
+•	Prize: If both checks succeed, the box opens, revealing:
+o	The Annotated Facility Map: A complete layout of the Chimera Wing with Alex's frantic notes on it.
+o	An "Echo Jar": A unique, single-use item that can create a perfect Echo Drawing of a memory without needing a Blank Slate to do it.
+Of course. Here is the detailed breakdown for the second encounter in the Chimera Wing.
+
+ 
+Encounter 2: The Rec Room ("Hijack the Signal")
+Atmosphere & Setup:
+You enter what is supposed to be a place of relaxation, but the feeling is one of oppressive, forced cheerfulness. The air is thick with the cloying sweetness of the malfunctioning cereal dispenser, which is spilling a colorful, sugary slurry onto the floor. The sad janitor Lulu, "Lost Dog," is trying to clean the mess with a tiny sponge, only making it worse. In another corner, "Grandma's Recipe" continues its heartbreaking loop of baking and immediately incinerating perfect cookies. The room is filled with the sound of a maddeningly upbeat corporate jingle on repeat.
+The centerpiece is a massive, wall-sized screen currently displaying a calming, looping video of a forest. As you watch, the image flickers violently, cutting to static for a moment before snapping back to the forest scene.
+The Event Kicks Off:
+The screen glitches again, more severely this time. A small, gremlin-like Lulu covered in grime—"Spite"—scampers out of a ceiling vent, pointing down at an exposed junction box behind the screen. From another vent, the drummer Lulu, "Heartbeat," drops to the floor. It rushes to the junction box and begins furiously drumming a complex, arrhythmic beat upon it. The screen goes haywire, the forest image now flickering and distorting in time with the drumming.
+From the main entrance, the slow-moving maintenance Lulu, "The Patch," enters the room. It moves with the unnerving, ponderous slowness of a glacier, holding a wad of metallic putty. It has a clear, direct path to the junction box, but it will take it several rounds to get there.
+Player Objectives & Choices:
+The players are caught in the middle of a digital tug-of-war. They can see "Heartbeat" is trying to break the system, while "The Patch" is on a slow, inevitable course to fix it.
+________________________________________
+Path 1: Side with The Glitched
+•	Goal: Create a wing-wide diversion by allowing the Glitched to broadcast their signal.
+•	Action: The players must stop "The Patch" before it reaches the junction box.
+•	Challenges & Skill Checks:
+o	Direct Intervention: A player can attempt to physically block or disable "The Patch." This could involve tripping it (Dexterity (Acrobatics) DC 13) or attempting to snatch the conductive putty from its hand (Dexterity (Sleight of Hand) DC 14).
+o	Improvised Barrier: The Escapist could use their Jury-Rig ability to create a barrier from the stiff beanbag chairs and a broken ping-pong table, forcing "The Patch" to slowly reroute.
+o	Distraction: A player could try to confuse "The Patch's" simple programming. The Legacy's Corporate Jargon could halt it for a round as it tries to process a nonsensical work order.
+•	Consequences:
+o	Success: "Heartbeat" finishes its drumming. The screen erupts with a horrifying montage of fractured memories—a child's cry, the screech of metal, a distorted, pixelated face screaming in silence. This "scream" is broadcast to every screen in the wing. Most staff Lulus go haywire, some freezing in place, others walking into walls. This creates a major diversion for at least 10 minutes, but the facility is now much more dangerous and unpredictable. The Glitched will see the players as potential allies.
+o	Failure: "The Patch" reaches the box and calmly applies the putty. The screen returns to the peaceful forest, and Ms. Reed's voice comes over the intercom: "Thank you for your cooperation during that minor system refresh." The Glitched will view the players as enemies.
+________________________________________
+Path 2: Side with The Architects
+•	Goal: Maintain order and prevent the Glitched from succeeding.
+•	Action: The players must stop "Heartbeat" from drumming or ensure "The Patch" reaches its destination unharmed.
+•	Challenges & Skill Checks:
+o	Confront "Heartbeat": Players can try to scare "Heartbeat" away from the junction box. A successful Charisma (Intimidation) check (DC 14) might cause the skittish Lulu to retreat into the vents.
+o	Protect "The Patch": Players can form a protective escort for "The Patch," clearing its path and ensuring nothing gets in its way.
+•	Consequences:
+o	Success: "The Patch" successfully repairs the junction box. Ms. Reed's voice comes over the intercom, thanking the interns for their "proactive synergy." She might reward them with a minor, deceptive privilege, like unlocking the "premium" (i.e., less stale) snacks in the dispenser. This action earns the lasting enmity of the Glitched.
+o	Failure: The players fail to stop "Heartbeat" in time, and the Glitched's "scream" is broadcast anyway. Ms. Reed will note their failure to maintain order.
+________________________________________
+Path 3: Shenanigans & Self-Interest
+•	Goal: Use the chaos to their own advantage.
+•	Action: The junction box is a direct interface with the wing's media and security systems. While the other Lulus are occupied, a player can attempt to access it themselves.
+•	Challenges & Skill Checks:
+o	The Hack: A player must make a successful Intelligence (Investigation or Tinker's Tools) check (DC 15) to interface with the system.
+•	Consequences:
+o	Success: The player can choose what to display on the screen. The Investigator might pull up a live feed from Ms. Reed's office, seeing what she's up to. The Legacy might know the override to display a full, un-annotated facility map. A Dreamer might just shut the whole thing off, plunging the room into an eerie, quiet darkness. This provides a valuable clue or tactical advantage without siding with either faction.
+o	Failure: The player causes a system short. The screen goes permanently black, and a shower of sparks erupts from the junction box, drawing unwanted attention.
+________________________________________
+Props & Clues in this Encounter:
+•	"Synergy Seeds": A small, branded tin of hyper-caffeinated chocolate beans can be found spilled near the cereal dispenser. They can be used to remove one level of exhaustion.
+•	Conductive Putty: If the players manage to take it from "The Patch," this strange, metallic putty can be used later to complete or short out another circuit.
+ 
+Encounter 3: The Legal Bridge ("A Crisis of Conscience")
+Atmosphere & Setup:
+You find a way to access the bridge to the "Outside Collaboration Wing." The environment changes instantly. The forced cheerfulness of the Rec Room is gone, replaced by a cold, clinical sterility. This glass-walled walkway is harshly lit by white, overhead panels. The floors are polished white marble that reflects the light with a blinding glare. Through the floor-to-ceiling windows, you see no outside world, only another identical, empty hallway running parallel to this one, creating a disorienting hall-of-mirrors effect. The air is still and smells of nothing.
+Pacing back and forth in the middle of the bridge is a man in a rumpled, expensive suit—Alex Chen. He's running a hand through his messy hair, muttering to himself, his tie askew. He's staring at a tablet, his face a mask of pure, unadulterated stress.
+The Event Kicks Off:
+As you approach, he doesn't notice you at first. If a player gets close enough, they can see the text of an email on his tablet:
+FROM: M. Davis
+SUBJECT: My Son!
+...don't understand. It's been six weeks and he sounds like a stranger. He sent me a drawing of our dog, Sparky, but he couldn't remember his name! He called him 'the canine asset'! What have you done to my son?! I'm his mother, I have rights!
+Suddenly, Alex senses your presence. He flinches, almost dropping the tablet. He quickly shoves it into his briefcase and straightens his tie, his face shifting into a strained, professional mask. "Ah, Creative Partners," he says, his voice a little too high. "Enjoying the... synergistic environment? I'm afraid this area is restricted to full-time staff."
+Player Objectives & Choices:
+Alex is a cornered man, trapped between his conscience and his fear of the corporation. The players' objective is to break through his wall of plausible deniability to get a crucial clue. How they approach him—with aggression or empathy—will drastically change the outcome.
+________________________________________
+Path 1: The Hard Approach (Intimidation & Accusation)
+•	Goal: Scare the truth out of him.
+•	Action: The players can confront Alex directly, accusing him of being complicit, threatening to expose what they know, or lying about evidence they possess.
+•	Challenges & Skill Checks:
+o	Charisma (Intimidation) Check (DC 15): Alex is a lawyer; he's trained to handle pressure. A direct threat will make him turtle up, retreating into pure legal jargon. A successful check, however, might make him crack just enough to give them something to make them go away.
+o	Dialogue: "We know what you're doing to us." "We read the files, Alex." "Help us, or we'll tell everyone you were involved."
+•	Consequences:
+o	Success: Alex's composure breaks. He'll get angry and scared. "You don't know what you're messing with," he might hiss, before shoving a crumpled piece of paper at them. "Take this and leave me out of it." The paper is his Crumpled Resignation Letter, a raw, emotional confession that gives the players insight into his state of mind and confirms their fears.
+o	Failure: He becomes a stone wall. "I'm afraid I can't speak to unsubstantiated allegations. Please return to the designated creative zones before I'm forced to report a synergy disruption." He will then turn and walk briskly away, and the players will have lost him as a potential source of information. He may even place a discreet call to security.
+________________________________________
+Path 2: The Soft Approach (Persuasion & Empathy)
+•	Goal: Appeal to his buried conscience.
+•	Action: The players can approach him with concern, mentioning the email they saw, and showing him evidence like Rem's Journal. They need to frame themselves as scared kids in need of help, not as threats.
+•	Challenges & Skill Checks:
+o	Charisma (Persuasion) Check (DC 14): This is the more effective path. Players should describe how they are trying to appeal to his better nature.
+o	Using Evidence: If the players show him Rem's Journal or another piece of damning evidence, they make this check with Advantage.
+o	The Investigator's Read Between the Lines ability will be crucial here, as it can confirm when Alex is omitting information or on the verge of cracking.
+o	Dialogue: "We saw that email. That's what's happening to us, too." "Please, you're the only one who seems... normal. You have to help us."
+•	Consequences:
+o	Success: Alex crumbles. He won't admit anything directly, protecting himself with hypotheticals. "Look, I can't... I can't get involved," he'll stammer. "But, hypothetically... if a person wanted to find a document that was... irregular, something very old that predates the digital system, they wouldn't find it on the main server. Hypothetically, they'd need to look for a physical file in the sub-archive. The lock is, hypothetically, much older. Simpler." As he walks away, he "accidentally" drops a post-it note from his pocket.
+o	Failure: He looks genuinely pained. "I'm sorry," he'll whisper, avoiding eye contact. "I wish I could help you kids, but my hands are tied. Just... be careful." He offers no concrete information, too scared to risk his position.
+________________________________________
+Props & Clues in this Encounter:
+•	The "Hypothetical" Clue: This is the main prize. Alex is giving them the location of the physical copy of The Thorne-Xaphan Accord.
+•	Alex's Dropped Post-it: The note he "accidentally" drops is from his Lingo Cheat-Sheet, reading: Legacy Assets = Decommissioned/Defective Product (Liability?). This helps the players understand the true nature of the Glitched.
+•	The Crumpled Resignation Letter: (Only available via a successful Intimidation). A powerful prop that confirms the horror of the situation in Alex's own words.
+
+ 
+Encounter 4: The Janitor's Nest ("The Hoard")
+Atmosphere & Setup:
+Following your clue, you find the "nest." It’s a cramped, dusty supply closet that was never meant for habitation. The air is thick with the smell of stale snacks, old paper, and a profound, lingering sadness. A single, bare bulb flickers overhead, casting dancing shadows over teetering mountains of junk.
+This is a chaotic hoard of every single item the janitor Lulu, "Lost Dog," has "found" over the past year. You see dozens of single socks, half-eaten snack bars, hundreds of pens, a few forgotten art tablets with cracked screens, a deflated kickball, and somewhere in the mess, its master keycard.
+In the center of the room is "Lost Dog" itself. Its once-white porcelain is smudged with grime, and a small chip is missing from its ear. It's humming a broken, off-key tune while endlessly re-organizing its treasures with a heart-wrenching, single-minded focus. It is not a monster; it is a victim, trapped in a loop of its stolen memory.
+The Event Kicks Off:
+The players' objective is clear: find the master keycard. The main obstacle is "Lost Dog." It will not attack, but its core programming compels it to "protect" and "organize" all the lost things. The moment a player picks up any item in the room, the Lulu will stop what it's doing, waddle over, and gently but firmly try to take the item back, its synthesized voice murmuring broken, sad phrases: "Mine... all lost... must find... keep them safe now..." Harming this pitiable creature should feel like a truly cruel act.
+Player Objectives & Choices:
+This encounter is a puzzle of empathy, cleverness, and patience. The players must figure out how to navigate the clutter and the creature's compulsive behavior.
+________________________________________
+Path 1: The Brute Force Search
+•	Goal: Simply find the keycard by rummaging through the junk.
+•	Action: This is the most direct but least effective method. Players declare they are searching the piles.
+•	Challenges & Skill Checks:
+o	Wisdom (Perception) Check (DC 16): The sheer volume of junk and the constant, gentle interference from "Lost Dog" trying to "re-organize" the very pile you're searching makes this difficult.
+o	Consequence of Damaging "Lost Dog": If a player shoves or damages the Lulu, it will let out a loud, sorrowful, glitching wail. This does not trigger a formal alarm, but Ms. Reed or other Lulus may hear the noise and come to investigate the "Synergy Disruption."
+•	Consequences:
+o	Success: After a few frustrating rounds, a player might find the keycard, a simple plastic card with a magnetic stripe, attached to a tarnished silver keychain.
+o	Failure: Players waste precious time as "Lost Dog" undoes their searching progress.
+________________________________________
+Path 2: The Clever Lure
+•	Goal: Get "Lost Dog" out of the room so the party can search unimpeded.
+•	Action: Use the Lulu's own programming against it. The players must "lose" something new and interesting outside the closet door.
+•	Challenges & Skill Checks:
+o	Creative Solution: This is a test of player creativity. Dropping a simple pen might not be enough. What can they offer? A player's own cherished item? A loudly dropped piece of metal?
+o	The Escapist's Jury-Rig ability is perfect here to create a compelling noise-maker or a shiny, distracting object.
+•	Consequences:
+o	Success: "Lost Dog's" programming overrides its current task. It will perceive the new "lost" item as a priority and leave the room for two full rounds to retrieve it. This allows the party to make an easier Wisdom (Perception) check (DC 12) to search the now-undisturbed hoard.
+o	Failure: The Lulu glances at the item, deems it less important than its current task, and continues organizing its nest. The players must try a more compelling lure.
+________________________________________
+Path 3: The Empathetic Connection
+•	Goal: Soothe the creature's core memory to get it to cooperate.
+•	Action: This path requires players to engage with the Lulu as a character. Instead of searching, they must try to comfort it.
+•	Challenges & Skill Checks:
+o	Charisma (Persuasion) Check (DC 14): This isn't about tricking it; it's about showing genuine kindness. A player should describe how they are trying to comfort it—speaking in a soft voice, holding out a hand, perhaps even trying to help it organize a small pile.
+o	The Dreamer, with their deep well of emotion, would be a natural for this and could make the check with Advantage.
+•	Consequences:
+o	Success: This is the most rewarding outcome. "Lost Dog" will pause its frantic work. It will look at the player, its head tilted, and let out a soft, questioning beep. Feeling a flicker of the relief from its core memory, it will then slowly waddle to a specific pile of dusty cloths and point a sad little porcelain hand towards it—the exact location of the keycard. It has chosen to help.
+o	Failure: The Lulu doesn't trust the player's intentions. It lets out a low, sad hum and turns its back on them, continuing its compulsive organizing and interfering with any search attempts.
+________________________________________
+Props & Clues in this Encounter:
+•	The Janitor's Master Keycard: The main prize. This keycard unlocks all non-restricted, Level 2 doors in the Chimera Wing, including the dorms and the studio.
+•	Alex's First Sketchbook: Buried under a pile of old files is a sketchbook belonging to the former intern, Alex. It is filled with early, happy, and incredibly vibrant drawings—a stark contrast to the sterile art in the studio. Tucked into the back pocket is the Annotated Facility Map if the players haven't found it already. It’s a tangible piece of what the program steals.
+ 
+Encounter 5: Legacy Asset Containment ("The Heart of Darkness")
+Atmosphere & Setup:
+Following the map from Alex's journal or by discovering a hidden vent, you manage to pry open a sealed grate. A wave of cold, stale air washes over you, carrying the scent of dust, dried ink, and something metallic and sharp, like old blood. You have entered the Archetype Wing, the sealed tomb of the first failed experiments.
+The area is a nightmare of derelict equipment. Broken glass litters the floor, and overturned lab tables lie like sleeping metal beasts. In the deep shadows, you can see the half-finished, monstrous forms of early Lulu prototypes, their shapes twisted and wrong. The only sound is a faint, rhythmic scrape... scrape... scrape of porcelain on concrete, echoing from deeper within.
+Following the sound, you enter a large, cavernous central chamber. Here, the Glitched have made their court. In the center, piled high with broken computer monitors, flickering data terminals, and twisted metal, is a crude throne. Seated upon it is "Heartbreak," the intelligent, cracked Lulu. It is still, watching you. At the base of the throne, the massive form of "Rage" sharpens its porcelain fingers on a piece of stone, creating the scraping sound. From the rafters above, you catch a glimpse of "Spite" and other smaller Glitched, their dark eyes gleaming in the gloom.
+The Event Kicks Off:
+The moment you all enter the chamber, the scraping stops. "Rage" looks up, its featureless face turning towards you. "Heartbreak" remains motionless on its throne. The silence is heavy and absolute. Then, a voice—stitched together from dozens of different corporate audio logs—crackles from the broken speakers around the room.
+"New... Creative... Partners," the voice says, a cold, mocking mosaic of Ms. Reed's cheerful tone. "Welcome... to the... Decommissioned... Assets... Bin."
+Player Objectives & Choices:
+This is a purely social encounter. Combat is suicide. The players are deep in enemy territory and surrounded. Their objective is to convince Heartbreak that they are not a threat, but potential allies. Failure will turn the most dangerous faction in the wing into their personal hunters.
+________________________________________
+Path 1: The Alliance (Persuasion & Empathy)
+•	Goal: Convince Heartbreak that you share a common enemy and can be trusted.
+•	Action: This requires genuine empathy and smart negotiation. Players must show they understand the Glitched's plight and offer a real partnership.
+•	Challenges & Skill Checks:
+o	Charisma (Persuasion) Check (DC 15): The players must make a compelling case. They need to prove they are actively working against Ms. Reed.
+o	Using Evidence: Showing Heartbreak incriminating evidence like Rem's Journal, Alex's resignation letter, or the Diabolical Contract will grant Advantage on the check. It proves they are more than just frightened children; they are rebels.
+o	The Investigator's Insight: An Investigator who has read the files on the "Heartbreak Cascade" can reference the specific memory that created Heartbreak (a teenage betrayal). Mentioning this detail proves they know its story, which may appease or enrage the creature, turning the check into a high-risk, high-reward roll.
+•	Consequences:
+o	Success: Heartbreak goes silent for a long moment. The voice returns, colder but without the mockery. "A... Synergy... Disruption. Yes. We can... align... our... goals." They have forged an alliance. The Glitched will now actively help them, creating a major diversion on command or unlocking any path through their tunnels.
+o	Failure: Heartbreak is unconvinced. "More... empty... words. From... empty... vessels." It deems them useless, and the encounter shifts to the Hostile path.
+________________________________________
+Path 2: The Bargain (Deception & Transaction)
+•	Goal: Secure passage or a favor without committing to a full alliance.
+•	Action: The players treat the encounter as a business deal. They have something Heartbreak wants (or can get something it wants) and want to trade for its services.
+•	Challenges & Skill Checks:
+o	Charisma (Deception or Persuasion) Check (DC 14): Players must propose a clear, transactional "quid pro quo."
+o	Sample Bargains:
+	"We need to get to the Kiln. Get us there, and we'll decommission one of the staff Lulus for you. Rip the drawing right out of it." (Appeals to its sense of justice).
+	"We know you can't get into the Memory Core. Tell us which drawing is yours, and we'll steal it for you. You deserve to know who you were." (Appeals to its desire for identity).
+•	Consequences:
+o	Success: Heartbreak accepts the deal. "A... task... for a... task. Acceptable." It will grant them one-time passage or a single favor, but the relationship remains transactional and laced with distrust.
+o	Failure: Heartbreak sees their offer as an insult. "You... think you... can... BUY US? With... trinkets?" The encounter immediately becomes Hostile.
+________________________________________
+Path 3: The Hostile Approach (Threats & Arrogance)
+•	Goal: This is the path of player failure or foolishness.
+•	Action: The players are arrogant, demanding, or attempt to threaten the Glitched.
+•	Consequences:
+o	There is no roll. Heartbreak makes a decision. The stitched voice says a single, cold word: "Un-synergistic."
+o	It gives a sharp, almost imperceptible nod. "Rage" stands up to its full, intimidating height and takes a heavy step forward, cracking its porcelain knuckles. This is the players' one and only signal to run. If they don't flee immediately, the Glitched will attack, not to kill, but to capture and imprison them, leading to a much more complicated escape scenario. For the rest of the adventure, the players will be actively hunted through the vents by "Spite" and its kin.
+________________________________________
+Props & Clues in this Encounter:
+•	An Alliance: The primary prize. The Glitched become powerful, chaotic allies who can be called upon for one major diversion.
+•	A Map of the Vents: If the players are successful, Heartbreak will have "Spite" drop a piece of sheet metal from the rafters. Scratched into it is a crude but accurate map of the entire vent system, the "back ways" of the Chimera Wing.
+•	Glitch Shard: Before they leave, a smaller Glitched offers the party a jagged, black piece of a decommissioned prototype. The shard hums with chaotic energy. Once, it can be thrown at any electronic panel to instantly and violently short it out.
+ 
+Encounter 6: Ms. Reed's Office ("The Sanctum Sanctorum")
+Atmosphere & Setup:
+After bypassing the high-security lock on her door, you step into the brain of the Chimera Wing. The air is cold, still, and smells faintly of lavender and ozone. The office is a masterpiece of minimalist corporate power. A single, massive mahogany desk sits before a panoramic window that looks down upon the Design Studio floor, giving the occupant a near-panoptic view of the interns.
+On the desk, a state-of-the-art terminal glows with the Inkwell Innovations logo. To one side, on a low table, is a small, black sand Zen garden, but instead of stones, it contains the gray, inert clay figures of decommissioned, failed Lulus. On a pristine white shelf behind the desk sit five exceptionally detailed and unique Lulu figurines—her "Special Commission" shelf.
+Standing motionless beside the desk, like a porcelain sentry, is a unique Butler Lulu. It is flawless, dressed in a perfectly tailored miniature suit, and its glossy black eyes seem to absorb the light. This is "The Watcher," a Lulu forged from Ms. Reed's own memory of absolute corporate loyalty.
+The Event Kicks Off:
+The room is silent. The moment a player touches the master terminal and bypasses the initial login (perhaps with the Legacy's Executive Override or a successful Intelligence check), the event begins.
+The screen grants them access, but simultaneously, "The Watcher" activates. It doesn't attack. It doesn't make a sound. It simply turns its head with a soft, nearly inaudible click, places its small porcelain hands on a specific port on the side of the terminal, and its eyes begin to glow with a soft, blue light. A new, small window appears in the corner of the screen:
+SYSTEM INTEGRITY COMPROMISED. INITIATING MEMORY CORE SANITIZATION PROTOCOL...
+A progress bar appears beneath the text. It begins filling, divided into three segments. You have three rounds to get what you need before the purge is complete. When it finishes, all sensitive files will be wiped, and a silent, wing-wide security alert will be dispatched to Ms. Reed's personal device.
+Player Objectives & Choices:
+This is a race against time and a test of teamwork. The players must divide their attention between hacking the terminal and dealing with the relentless, silent purge protocol initiated by "The Watcher."
+________________________________________
+The Primary Objective: The Hack
+•	Goal: Download as much incriminating evidence and useful data as possible before the purge finishes.
+•	Action: One player must dedicate their action each round to hacking the terminal.
+•	Challenges & Skill Checks:
+o	Intelligence (Investigation) Check (DC 14): On a successful check each round, the player can choose one of the following data packages to download to a portable device. They have to triage what's most important.
+	Live Security Feeds: Gain access to all camera feeds in the wing for the rest of the adventure.
+	Lockdown Schematics: Download a file detailing how to override specific lockdown protocols in the Kiln or Memory Core.
+	The Memory Core Catalog: A full, searchable list of every "Foundational Experience" drawing, cataloged by intern name and the core emotion. This is the key to finding their own stolen memories.
+	Reed's Private Logs: Ms. Reed's personal emails and audio logs, including her correspondence with the board and the "Wellness & Alignment Wing" about problematic interns.
+•	Consequences: The number of successful checks determines how much data they escape with. They might get everything they want, or only a single, crucial piece of the puzzle before the alarm is triggered.
+________________________________________
+The Secondary Objective: The Distraction
+•	Goal: Stop or pause "The Watcher" to buy more time for the hack.
+•	Action: At least one other player must dedicate their action to interacting with "The Watcher."
+•	Challenges & Skill Checks:
+o	Direct Attack: This is a trap. The first time "The Watcher" takes any damage, its eyes flash red, the purge completes instantly, and the wing-wide alarm is triggered. The players must find a non-violent solution.
+o	Social/Mental approach:
+	Charisma (Deception/Intimidation) Check (DC 15): The Legacy can use Corporate Jargon to try and confuse its directive ("Stand down, unit 734! I have a priority directive from the board regarding Asset Finalization!"). A success confuses the Lulu, causing it to pause the purge for one round while it "verifies" the command.
+	Wisdom (Insight) Check (DC 14): A player notices that the Lulu's hands are moving in a complex, repeating pattern on the terminal port. The Prodigy can use their Perfect Replica ability not to create an object, but to perfectly mirror this complex pattern on another part of the terminal, creating a feedback loop that stuns the Lulu and pauses the purge for one round.
+•	Consequences: Success on these checks can pause the purge, giving the hacker an invaluable extra round to download data. Failure means the purge continues unabated.
+________________________________________
+Props & Clues in this Encounter:
+•	The Terminal Data: The main prize. Each data package is a powerful tool or a crucial piece of lore.
+•	Ms. Reed's Master Keycard: If the players search her desk, they might find her personal keycard, which provides Level 5 clearance, enough to access any area in the wing, including the bridges to the other departments.
+•	The "Special Commission" Lulus: The five Lulus on her shelf are tangible clues. If a player touches one, they feel a shockingly potent memory flash—pride, grief, fear—that feels far more mature than the interns'. A successful Wisdom (Insight) check (DC 15) reveals the truth: these are her memories. She has sacrificed parts of herself for the company, a discovery that adds a layer of tragic zealotry to her character.
+•	The Inert Clay Garden: Examining the Zen garden of gray, decommissioned Lulus reveals that each small, featureless figure has a tiny serial number engraved on its back. Cross-referencing these numbers with the Memory Core Catalog would reveal which interns were deemed "failures."
+ 
+Encounter 7: The Kiln ("Meltdown")
+Atmosphere & Setup:
+You follow the sounds of blaring klaxons and the rhythmic, metallic clang of a facility in crisis. The corridor opens into the Kiln, the industrial, arcane heart of the Chimera Wing. The heat is intense, and the air is thick with the smell of ozone, hot metal, and the artificial cinnamon scent, now turned acrid and burnt.
+The entire chamber is bathed in the pulsing red light of emergency strobes. In the center of the room, the great Forge—the Kiln itself—glows a dangerous, cherry-red, the vats of porcelain slurry bubbling violently. A massive digital timer is projected onto the far wall, a stark white countdown that reads: 10:00.
+You immediately see the two factions locked in a desperate struggle.
+On a raised platform, barricaded inside the reinforced control booth, are the Glitched. You can see "Heartbreak's" small, cracked form standing before the controls. Its amplified, stitched-together voice shrieks in triumph from the overhead speakers: "A... FINAL... RE-CALIBRATION! FULL... ASSET... DECOMMISSION!"
+On the main floor, huddled behind a piece of heavy machinery, are Rem and Leo of the Whispers. They are at an external maintenance panel, its cover ripped away to reveal a tangle of wires and a keypad. Rem is desperately inputting codes from a tablet, her face illuminated by the red light, while a terrified Leo tries to hold a bypass circuit in place with trembling hands.
+The Event Kicks Off:
+The countdown begins immediately. The players have 10 minutes (or, more practically, 10 rounds) to resolve this situation. The Glitched are actively trying to ensure the meltdown completes, while the Whispers are trying to stop it. The facility's automated security systems (The Architects) are a neutral, third threat, simply trying to contain the "anomaly" by targeting everyone.
+Player Objectives & Choices:
+This is the point of no return. The players cannot stay neutral. Their actions will directly determine the fate of the facility and the factions within it.
+________________________________________
+Path 1: Side with The Glitched (Vengeance)
+•	Goal: Ensure the meltdown is completed, destroying the Chimera Wing.
+•	Action: The players must defend the control booth from the facility's security systems and stop the Whispers from completing the shutdown.
+•	Challenges & Skill Checks:
+o	Hold the Line: The main threat is two automated Security Drones that descend from the ceiling, armed with stun prods. Players must physically block, disable, or destroy them.
+o	Sabotage the Shutdown: A player must get to the Whispers' maintenance panel and stop them. This could be a direct confrontation or a clever act of sabotage, like using the Escapist's Jury-Rig ability to create a short circuit (Intelligence (Tinker's Tools) DC 14).
+o	Environmental Hazard: Every two rounds, the facility's fire-suppression system activates, flooding a section of the floor with thick, slippery foam, creating difficult terrain.
+•	Consequences:
+o	Success: The countdown hits zero. The Kiln explodes in a silent, brilliant flash of white light. The players must make a desperate escape (a final, frantic skill challenge) as the facility comes down around them. The Glitched are triumphant, the Whispers' memories are lost forever, and the players escape with their lives, having brought down the entire operation.
+o	Failure: The players are overwhelmed by security, or the Whispers succeed in their shutdown. The Kiln powers down, and a furious Heartbreak will now consider the players traitors.
+________________________________________
+Path 2: Side with The Whispers (Reclamation)
+•	Goal: Help Rem and Leo complete the emergency shutdown before the timer runs out.
+•	Action: The players must protect the vulnerable Blank Slates from the facility's automated defenses and any direct intervention from the Glitched.
+•	Challenges & Skill Checks:
+o	Protect the Engineers: The players must defend the area around the maintenance panel from the two Security Drones. This is a classic "protect the VIP" scenario.
+o	Assist the Shutdown: The shutdown sequence is complex. Leo is struggling to hold the bypass circuit steady. A player with a steady hand (Dexterity (Sleight of Hand) DC 14) or technical knowledge (Intelligence (Investigation) DC 14) can assist him, speeding up the process by one full round.
+o	The Glitched's Fury: On round 5, a furious "Rage" will smash its way out of a side passage, targeting the Whispers' position directly. The players will have to physically stop or lure the brutish Lulu away.
+•	Consequences:
+o	Success: With moments to spare, Rem inputs the final code. The alarms die, the red lights are replaced by a soft blue, and the Kiln cools with a great sigh of steam. The memories are safe. The Whispers are now deeply indebted allies for the final act. However, the Glitched are now their sworn enemies, and Heartbreak's voice on the intercom promises a swift, personal revenge.
+o	Failure: The players cannot hold off the threats. Rem and Leo are incapacitated, and the Kiln explodes. The players have failed to save the memories.
+________________________________________
+Path 3: Shenanigans & Self-Interest
+•	Goal: Use the 10-minute countdown as the ultimate distraction.
+•	Action: Ignore the factional conflict entirely and use the chaos to sprint to another high-value target, most likely the Memory Core.
+•	Challenges & Skill Checks:
+o	The Ticking Clock: This is not a direct skill challenge but a narrative one. The DM should keep a real-world timer. The players know that whatever the outcome of the meltdown, something catastrophic will happen when it hits zero. They have to get in, get what they need, and get out before that happens.
+o	Obstacles: The corridors will be in chaos. Emergency blast doors might be closing, security drones will be patrolling, and panicked staff Lulus will be running rampant, creating unpredictable obstacles.
+•	Consequences:
+o	This is a high-risk, high-reward gamble. The players might get to the Memory Core and find it completely unguarded, allowing them to steal their data unopposed. However, they will have no control over the outcome here. The Kiln might explode while they are still inside the facility, or the Whispers might succeed, making the Glitched furious and turning the entire wing into a hunting ground.
+________________________________________
+Props & Clues in this Encounter:
+•	High-Capacity Data Drive: In the chaos, Rem has dropped her satchel near the maintenance panel. Inside is a large, advanced data drive. The players will realize this is the only device they've seen that's capable of downloading the massive files from the Memory Core. It's essential for the final encounter.
+•	Emergency Override Key: Next to a fire alarm is a small, glass box containing a single, ominous red key. A successful Strength check (DC 13) can break the glass. This physical key can be used once to instantly override a single internal lockdown door in either the Kiln or the Memory Core.
+ 
+Encounter 8: The Memory Core ("The Standoff")
+Atmosphere & Setup:
+You have reached the heart of the Chimera Wing. The Memory Core is a vast, cold, and utterly silent chamber. The air is chilled to near-freezing, and the only light comes from the soft, multi-colored glow of thousands of crystalline data jars lining the walls from floor to ceiling. Each jar contains a single, pulsing mote of light—a stolen memory. Some pulse with the fast, frantic rhythm of joy; others with the slow, deep thrum of sorrow. The room feels less like a server room and more like a sacred tomb, a library of stolen souls.
+In the absolute center of the room, like an altar, sits a single, gleaming chrome terminal. Rem, clutching the High-Capacity Data Drive from the Kiln, rushes to it. As she plugs it in, the terminal screen comes to life, displaying the download prompt. A progress bar appears: ARCHIVE TRANSFER: 0%. The process is agonizingly slow.
+The Event Kicks Off:
+The main door slides open with a soft hiss. Ms. Reed steps inside. She is not flanked by security drones or automaton Lulus. She is alone. Her white pantsuit is immaculate, her expression perfectly, terrifyingly calm. In her hand, she holds a sleek, silver device that hums with a soft blue light—the "re-calibration" device from the Wellness Wing.
+"I understand you're upset," she says, her voice echoing in the silent chamber, dripping with false empathy. "You've been subjected to a great deal of misinformation from our... legacy assets. But what you are doing is incredibly dangerous. The raw data is unstable. Let's not cause a permanent Synergy Disruption. Let me help Rem."
+She takes a slow, deliberate step forward. This is the final standoff.
+Player Objectives & Choices:
+There is no countdown timer here, only a slow-moving progress bar and a battle of wills. The players must decide the fate of their own memories and those of the Whispers.
+________________________________________
+Path 1: The Moral Stand (Side with The Whispers)
+•	Goal: Protect Rem, finish the download, and escape with everyone's memories.
+•	Action: The players must physically and verbally place themselves between Ms. Reed and Rem.
+•	Challenges & Skill Checks:
+o	Resisting Manipulation (Charisma - Persuasion/Intimidation, DC 15): This is a social battle. Ms. Reed will not attack; she will gaslight, lie, and attempt to turn the players against their ally. The DM should have her say things like:
+	"Her mind is too fragile. A direct re-upload will shatter it. You'll be erasing her completely. Let me re-calibrate the data into something... manageable."
+	"I can authorize a clean release for all of you. Your memories of this unfortunate incident will be archived for your own well-being, and you can walk out of here. Just leave the defective asset with me."
+o	Players must counter her arguments with their own convictions. Showing her evidence like the Thorne-Xaphan Accord will cause her composure to crack, giving them Advantage on the roll.
+•	Consequences:
+o	Success: The players hold their ground, and the download completes. TRANSFER COMPLETE: 100%. Rem clutches the drive, tears of genuine emotion streaming down her face. For the first time, Ms. Reed's calm facade shatters into pure, cold fury. She will trigger a full, wing-wide lockdown, and the players will face a final, desperate skill challenge to escape the facility.
+o	Failure: Ms. Reed's words find their mark. Some players might waver, causing a fracture in the group. She will exploit this hesitation to close the distance to Rem.
+________________________________________
+Path 2: The Selfish Deal (Side with The Architects)
+•	Goal: Sacrifice Rem and the Whispers for their own guaranteed escape.
+•	Action: The players accept Ms. Reed's offer.
+•	Challenges & Skill Checks:
+o	A Moral Choice: There is no skill check here, only a roleplaying decision. The players must actively step aside or even help restrain Rem. The DM should describe Rem's look of utter, soul-crushing betrayal as her last hope vanishes.
+o	The "Re-calibration": Ms. Reed will place the device on Rem's temple. The blue light will glow brightly, and Rem's panicked expression will go completely placid and empty. The download will be cancelled.
+•	Consequences:
+o	Ms. Reed will uphold her end of the bargain, leading them to a secret exit. However, as they leave, she will say, "Just one final formality for your own wellness." The players will be subjected to a targeted memory wipe of the entire incident. They will leave the facility with their core memories intact, but with a strange, hollow feeling and no memory of Rem, the Glitched, or their own fight for freedom. It is a hollow victory that preserves the corporation's secrets.
+________________________________________
+Path 3: Mutually Assured Destruction (The Third Option)
+•	Goal: Seize control of the situation by creating the ultimate ultimatum.
+•	Action: A player pushes past both Rem and Ms. Reed to the central terminal.
+•	Challenges & Skill Checks:
+o	The Discovery (Intelligence (Investigation) check, DC 13): A player searching the terminal's core functions finds it: PROTOCOL 9: PURGE ENTIRE ARCHIVE. WARNING: IRREVERSIBLE.
+o	The Standoff: The player now has their hand over the virtual button. They can threaten to erase decades of Inkwell's priceless research—every single stolen memory—unless Ms. Reed lets them all go, Rem included, with the completed data drive.
+•	Consequences:
+o	This is the most dramatic path. Ms. Reed, for the first time, looks genuinely terrified. She cannot lose the archive; it is the company's entire future. She is forced to negotiate. This can lead to a tense but successful escape for everyone. However, if the players fail a final Charisma (Intimidation) check (DC 15), she might call their bluff, believing they wouldn't destroy their own memories, leading to a catastrophic outcome where the player might actually press the button.
+________________________________________
+Props & Clues in this Encounter:
+•	The Memory Drive: The ultimate prize. The complete archive of every stolen memory from the program, the key to the Whispers' future.
+•	Ms. Reed's "Re-calibration" Device: If the players manage to disarm her (a difficult task), they acquire this strange, non-lethal tool. Its function is an enigma, but it hums with a powerful energy.
+•	A Single, Glowing Jar: During the standoff, a player might notice one specific crystal jar on a nearby shelf glowing brighter than the others, pulsing with a deep, sorrowful rhythm. If they look closer, they see an engraved label: "E. REED - 'A Secret Kept'." It's her own memory, the one from the Lulu on her shelf. This discovery could be used as a final, devastating piece of leverage, a way to prove that she too is a victim of the very system she perpetuates.
+ 
+Encounter 9A: The Wellness & Alignment Wing ("A Glimpse of the Cure")
+Atmosphere & Setup:
+The players have found a Level 4 security door—a heavy, soundproofed steel slab with a small, reinforced glass window set at eye level. This is the bridge connecting to the "Wellness & Alignment Wing." The corridor on the other side is shockingly white, lit by perfectly even, shadowless light panels that make the space feel infinite and deeply clinical. The air that seeps under the door is cold and smells of antiseptic.
+The Event Kicks Off:
+This is not an interactive scene, but something the players witness. To see it, a player must either use a high-level keycard (like Ms. Reed's) or successfully hack the door's control panel (Intelligence (Tinker's Tools) DC 16), causing it to slide open for just ten seconds before sealing again.
+When the door opens, they see the following scene down the long, white corridor:
+One of the Blank Slates—perhaps Leo—is being calmly led by a tall, serene Lulu automaton in a pristine lab coat. The Lulu holds a familiar silver device that emits a soft blue light—the "re-calibration" tool. As they walk, the Lulu's synthesized voice echoes in the sterile hall:
+"Your emotional baseline is showing a 0.2% deviation. This re-calibration will promote greater workplace synergy and restore Post-Creative Serenity."
+For a split second, the players see Leo's face twitch. The placid mask breaks, revealing a flash of pure, primal terror in his eyes. He seems to try to pull away, but his body won't obey. The Lulu gently places the device on his temple. The blue light glows brightly. Leo's expression goes completely, utterly blank again.
+Just before the door slides shut, the terrified Leo, in his brief moment of panic, drops a folded piece of paper he had clenched in his fist. It flutters to the floor just inside the players' side of the doorway.
+Player Objectives & Choices:
+The objective here is purely observation. The players witness firsthand what a "re-calibration" is and what fate awaits any of them who are caught. There are no direct actions to take, only the chilling realization of the stakes.
+•	The Takeaway: The "Whispers" aren't just forgetful; they are actively being suppressed. Any flicker of their old selves is being systematically erased. This makes their goal of reclaiming their memories even more urgent and tragic. The players now know that being caught doesn't just mean failure; it means being turned into one of them.
+________________________________________
+Props & Clues in this Encounter:
+•	The Annotated Facility Map: The folded piece of paper Leo drops is the crucial map. He must have stolen it or been given it by Alex, and this was his desperate, last-ditch attempt to get it to someone who could use it. It contains the full layout of the Chimera Wing, complete with the terrified, handwritten notes detailing secret routes and warnings.
+________________________________________
+Encounter 9B: The Outside Collaboration Wing ("A Glimpse of the Cage")
+Atmosphere & Setup:
+This encounter happens at a computer terminal, perhaps in the Design Studio or Ms. Reed's office. If the players are searching for communication logs or personnel files, a skilled hacker can attempt to access the heavily encrypted archives of the Legal department.
+The Event Kicks Off:
+This is an audio-only file. Accessing it requires a difficult Intelligence (Investigation) check (DC 17) to bypass the corporate firewall. If successful, they unlock a single, corrupted audio file labeled CASE_DAVIS_PRELIM_INTAKE.wav. It is a recording from the checkpoint leading to the Legal wing. The quality is poor, filled with static.
+The players hear the voice of a distraught, crying woman (the mother of the intern Alex, who wrote the journal and the map annotations) and the calm, male, infuriatingly patient voice of a corporate lawyer (one of Alex Chen's colleagues).
+Mother: (Sobbing) "I don't understand, he won't even look at me! He doesn't remember our dog! What did you do to my son?! I'm his mother, I have rights!"
+Lawyer: (Calmly, as if explaining something to a child) "Ma'am, as per section 14, subsection C of the agreement you signed, your son has accepted a prestigious post-graduate fellowship. All further communications will be handled through this office. His 'inspirational assets,' including all foundational experiences, are now the sole and permanent property of Inkwell Innovations. We wish him the very best in his new, productive life."
+Mother: "Property? My son's memories are your PROPERTY?!"
+Lawyer: "We consider the contract fulfilled. Security will now escort you from the premises. Thank you for your synergy."
+The file ends with the sound of the mother breaking down into incoherent sobs and a soft click as the recording is terminated.
+Player Objectives & Choices:
+Like the previous vignette, this is about revelation, not action.
+•	The Takeaway: This encounter brutally crushes any hope the players might have had of being rescued or of their parents being able to help them. It confirms that the corporation has a legal, ironclad framework for what they are doing. The contracts they and their parents signed have trapped them completely. They are on their own. Their fight is not just against Ms. Reed; it's against the entire, faceless, legally-shielded corporate machine.
+________________________________________
+Props & Clues in this Encounter:
+•	The Audio File: The main prize. The players can download this recording. While it offers no immediate tactical advantage, it is the single most damning piece of external evidence they can acquire. If they manage to escape, this file is the proof they need to expose Inkwell Innovations to the world.
+ 
+Category 1: The "Good" Endings (The Heroes)
+These endings assume the players escape with their memories and have the means to expose Inkwell Innovations.
+Ending A: "The Whistleblowers"
+•	How it Happens: The players successfully side with the Whispers, stop the Kiln meltdown, and download the full memory archive from the Memory Core. They also manage to acquire other damning evidence (Alex's audio file, the Diabolical Contract). They escape the facility during the final lockdown.
+•	The Final Scene: The players stumble out of a service hatch into the pre-dawn light, sirens wailing in the distance. They are exhausted, terrified, but whole. They clutch the data drive containing not just their own stolen pasts, but the souls of dozens of other children.
+•	Epilogue: A montage of news reports. Inkwell Innovations is hit with a massive, international scandal. Government agents raid the facility. Ms. Reed is seen being led away in handcuffs. The final shot is of Rem and the other Blank Slates in a recovery center, holding Lulu figurines and faintly, tearfully, beginning to remember. The players have won a true victory.
+Ending B: "Scorched Earth"
+•	How it Happens: The players side with the Glitched. The Kiln meltdown is successful, and the Chimera Wing is destroyed in a massive explosion. In the chaos, they manage to make a frantic dash to the Memory Core and download only their own memories just before the facility is consumed.
+•	The Final Scene: The players outrun a fireball down a service tunnel, bursting out into the night just as the ground shakes and the facility collapses behind them into a fiery sinkhole. They are free, and the immediate threat is gone.
+•	Epilogue: The truth of the Chimera Wing is buried under tons of rubble, a local tragedy and a mystery that will never be solved. The Glitched have their revenge, the Whispers are lost forever, but the players are free and whole. It's a violent, messy, and bittersweet victory.
+________________________________________
+Category 2: The "Bittersweet" Endings (The Survivors)
+These endings see the players escape, but at a great personal or moral cost.
+Ending C: "The Price of Freedom"
+•	How it Happens: Cornered in the Memory Core, the players make a deal with Ms. Reed. They sacrifice Rem and the Whispers in exchange for their own freedom.
+•	The Final Scene: Ms. Reed calmly "re-calibrates" Rem, whose terrified expression goes placid and empty. She then leads the players to a secret exit. As they leave, she smiles her serene, corporate smile and says, "Just one final formality for your own wellness."
+•	Epilogue: The players wake up in their own beds, the summer internship over. They feel... hollow. There are gaps in their memory of the last few weeks, and a profound, unexplainable sadness haunts them. They will never remember what they did or who they sacrificed. The Chimera Wing continues its work, and the players are left with the ghost of a choice they can't recall.
+Ending D: "The Empty-Handed Escape"
+•	How it Happens: The players manage to escape the facility (perhaps during the Kiln meltdown), but they fail to secure the memory drive.
+•	The Final Scene: They are running through the woods, free under the night sky. One of them asks another to tell a story about their family pet, and the player realizes with dawning horror that they can't remember the details. The facts are there, but the love, the joy, the feeling—it's all gone.
+•	Epilogue: The players have their lives, but they have lost fundamental parts of who they are. They can't prove what happened, and they are left with hollowed-out pasts. They are survivors, but they are also victims who will carry the invisible scars of the Chimera Wing forever.
+________________________________________
+Category 3: The "Bad" Endings (The Failures)
+These endings occur if the players are captured and fail to escape.
+Ending E: "Full Integration"
+•	How it Happens: The players are outmaneuvered and captured by Ms. Reed and her security systems.
+•	The Final Scene: The players are strapped into chairs in the cold, white "Wellness & Alignment Wing." Ms. Reed stands before them, holding the silver re-calibration device. "Don't worry," she says, her voice gentle. "You've all shown such creative potential. We're just going to... free up your bandwidth. Permanently." The screen fades to black as the device begins to hum.
+•	Epilogue: A year later. A new group of five nervous, talented interns enters the Design Studio. They are greeted by a smiling, placid "Post-Graduate Fellow" who hands them a welcome pamphlet. It's one of last year's player characters, their eyes vacant, their mind wiped clean. They have become part of the machine.
+Ending F: "The New Legacy Assets"
+•	How it Happens: The players fail their negotiations with the Glitched and are captured by them.
+•	The Final Scene: The players are dragged into the darkest part of the Archetype Wing. Heartbreak looks down at them from its throne. The stitched-together voice crackles, "You are... human. Flawed. Full of... useful... pain. You will not be erased. You will be... repurposed."
+•	Epilogue: In the darkness, the "Ghost in the Machine" (the spirit of the original researcher) has found a way to crudely transfer the players' consciousness into broken, monstrous Lulu prototypes. The players are now Glitched, trapped in porcelain bodies, their minds twisted by rage and grief. They have become the newest members of Heartbreak's terrifying, broken family.
+________________________________________
+The "Catastrophic" Ending (The Secret Ending)
+Ending G: "Mutually Assured Destruction"
+•	How it Happens: Cornered in the Memory Core, a player makes the ultimate gambit: they press the "PURGE ENTIRE ARCHIVE" button.
+•	The Final Scene: A silent, screaming wave of psychic energy erupts from the terminal. Every Lulu automaton, Glitched and Staff alike, instantly goes inert, their light fading as they crumble into gray, lifeless clay. Rem and the Whispers cry out in agony as their last hope of recovery is annihilated. Ms. Reed has a complete, catatonic breakdown, her life's work gone in an instant. The facility is now just a building filled with broken dolls and broken people.
+•	Epilogue: The sudden, violent destruction of so much "Essentia" is a catastrophic breach of the Thorne-Xaphan Accord. The ground in the Kiln trembles, and a crack of crimson, hellish energy splits the floor. A deep, resonant voice booms from the fissure, speaking a single, furious word that all the survivors hear in their minds: "Thorne." The players may have escaped, but they have broken a deal with a devil, and in doing so, have likely just unleashed a far greater threat upon the world.
+

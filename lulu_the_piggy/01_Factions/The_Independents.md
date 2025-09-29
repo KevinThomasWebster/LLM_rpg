@@ -1,0 +1,19 @@
+# The Independents
+
+This document details the independent NPCs who are not aligned with any of the major factions. They can serve as wildcards, information brokers, or obstacles for the players.
+
+## "Socket" - The Disgruntled IT Technician
+
+*   **Concept:** A burnt-out, cynical IT technician who knows many of the digital secrets of the Chimera Wing. They are a member of the Architects but have no loyalty to the corporation. They are a potential ally of convenience for the players.
+*   **Appearance:** Socket is a man in his late 30s with tired eyes, a perpetually unimpressed expression, and a coffee-stained t-shirt that might have once been white. His workspace is a chaotic nest of wires, spare parts, and empty energy drink cans.
+*   **Backstory:** Socket was once a bright-eyed tech enthusiast, excited to work for a company like Inkwell Innovations. Years of dealing with inane help tickets, soul-crushing corporate bureaucracy, and the dark underbelly of the Chimera Wing have eroded his optimism, leaving only a bitter-tasting apathy. He knows just enough to be a threat to the corporation, but not enough to have a viable escape plan.
+*   **Motivation:** His primary motivation is self-preservation and a desire to be left alone. He also harbors a petty desire to throw a wrench in the corporate machine that has ground him down. He might help the players if it seems like the easiest path, or if they can offer him something he wants (like a rare piece of hardware or a way to erase his own digital footprint).
+*   **Roleplaying Notes for the DM:** Socket is sarcastic, world-weary, and deeply unhelpful at first. He communicates in a clipped, technical jargon, and will often respond to questions with a sigh and a complaint about his workload. To get his help, players will need to appeal to his self-interest, his laziness, or his buried resentment of the company. He is not a hero and will not stick his neck out for anyone without a clear benefit to himself.
+
+## "The Archivist" - An Ancient, Trapped Whisper
+
+*   **Concept:** One of the very first interns to be "processed," The Archivist has been a "Whisper" for so long that they have become a passive, almost ghost-like figure. They haunt the Memory Core, endlessly sorting and cataloging memories they don't understand.
+*   **Appearance:** The Archivist is an androgynous figure with a blank, placid face and slow, deliberate movements. They wear a standard Whisper uniform that is immaculately clean but faded with age. Their eyes are unfocused, as if they are looking at something far away.
+*   **Backstory:** The Archivist was a gifted young musician, one of the first test subjects for the memory extraction process. Something went wrong, and their consciousness was fractured, leaving them in a state of perpetual, dreamlike confusion. They are now a permanent fixture of the Memory Core, a living part of the machinery.
+*   **Motivation:** The Archivist has no conscious motivation. They are driven by a deeply ingrained, almost biological need to sort and organize. However, fragments of their former self remain. They are drawn to music, and a particular melody might trigger a brief moment of lucidity.
+*   **Roleplaying Notes for the DM:** The Archivist does not speak in coherent sentences. They communicate in hums, whispers, and disconnected phrases that are fragments of stolen memories. They might repeat a line of dialogue they overheard, hum a tune that is a password, or trace a pattern on a dusty surface that is a clue. They are a living puzzle box, a source of cryptic information. They are not a threat, but their presence should be deeply unsettling, a constant reminder of the stakes.
