@@ -185,5 +185,5 @@ Each agent has detailed instructions in their README.md file.
 ## Support
 
 - Report issues: https://github.com/anthropics/claude-code/issues
-- Review existing examples: `lulu_the_piggy/` and `lulu_the_piggy_2/` folders
+- Review existing examples: `lulu_the_piggy_2/` folders
 - Check agent-specific guides: `.claude/agents/*/ADDENDUM.md` and `ENHANCED_WORKFLOW.md` files

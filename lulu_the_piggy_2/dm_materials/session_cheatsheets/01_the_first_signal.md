@@ -1,5 +1,8 @@
 # The First Signal - Quick Reference
 
+**[Level 3: Production Floors]**
+*Depth Effect: Clinical efficiency is unnerving. Lulus move with unnatural precision, shadows don't match light sources. DC 13 Perception reveals Lulus never blink. You are being watched, catalogued, measured.*
+
 ## At a Glance
 - **Location:** The Design Studio (Chimera Wing)
 - **Factions Present:** 🏢 Architects (automated security), 👻 Echoes (Rem)

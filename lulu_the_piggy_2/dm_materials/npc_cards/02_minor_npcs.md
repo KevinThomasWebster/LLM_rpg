@@ -217,9 +217,12 @@
 **Skills:** Perception +2
 **Saves:** None
 **Damage Resistances:** Poison
+**Damage Vulnerabilities:** Radiant (holy water deals 1d6 radiant + DC 12 Con save or Frightened 1 round)
 **Condition Immunities:** Charmed, Frightened
 **Senses:** Darkvision 60ft, Passive Perception 12, Networked Communication (shares sensory data with all Security Lulus within 100ft)
 **Languages:** Common (understands, limited speech)
+
+**Holy Water Vulnerability:** When hit by holy water, Security Lulu takes 1d6 radiant damage. Porcelain cracks and hisses, steam rises, and it must make DC 12 Constitution save or be Frightened (1 round). It recoils from the source.
 
 ### Combat Actions
 

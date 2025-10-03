@@ -1,5 +1,8 @@
 # The Chorus - Quick Reference
 
+**[The Abyss: Infernal Machinery]**
+*Depth Effect: The supernatural is explicit. Psychic screaming overwhelming—DC 13 Wisdom save on entry or stunned until end of next turn. At Cascade 80%+, green hellfire flashes in data stream.*
+
 ## At a Glance
 - **Location:** The Memory Core (Vast crystalline chamber)
 - **Factions Present:** 👻 Echoes (Rem leading restoration), 🏢 Architects (Ms. Reed interrupting)
@@ -47,6 +50,12 @@
       - DC 14: Success = -10% Cascade Failure
       - DC 10-13: Partial = -5% Cascade Failure
       - <10: Failure = power surge, +5% Cascade Failure
+    - **Holy Water - Sanctify Corrupted Jar:** Pour holy water on glowing red jar (any character)
+      - **Automatic -10% Cascade Failure** (no check needed)
+      - Jar destroyed safely (no Memory Phantom manifestation)
+      - Vial consumed (single use)
+      - **Narrative:** *"The blessed water touches the jar, and the red glow dims. The psychic screaming quiets. The jar cracks gently, and a soft golden light escapes—the memory, finally at peace, returns to its owner."*
+      - **Limitation:** Only 3-5 vials total in adventure (use strategically)
     - **Rem (NPC Action):** Technology check to manage core process (-5% on success, automatic unless disrupted)
     - **Leo (NPC Action):** Technology check to route power (-5% on success, automatic unless disrupted)
 - **Memory Phantom Manifestations:**

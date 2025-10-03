@@ -1,5 +1,8 @@
 # A Crisis of Conscience - Quick Reference
 
+**[Level 2: Administrative Offices]**
+*Depth Effect: Too clean, too perfect, too controlled. Reflections delayed by microseconds. DC 15 Insight check notices something fundamentally "off."*
+
 ## At a Glance
 - **Location:** The Legal Bridge (Chimera Wing)
 - **Factions Present:** 🏢 Architects (Alex Chen, security), 📋 Internal Auditors (Alex Chen - conflicted)
@@ -128,6 +131,12 @@
 - [ ] **Re-calibration Process** (ATMOSPHERIC) - Mind-wiping protocol for disloyal staff
   - *Discovery Method:* Alex's fear reveals Architects erase problematic employees
   - *Reveals:* Fate worse than death, stakes for failure, corporate control
+
+- [ ] **Holy Water Vial** (ITEM DISCOVERY - OPTIONAL) - "Synergy Pacification Spray"
+  - *Discovery Method:* DC 12 Investigation check to search Alex's nearby desk
+  - *Found:* 1 vial of holy water in his drawer
+  - *Alex's Reaction:* "I don't know why I took it from the supply closet. I just feel *safer* when it's near me. Like it keeps... something... away."
+  - *Reveals:* Alex unconsciously senses infernal presence in facility, holy water provides spiritual protection
 
 ## Win Conditions
 - **Players:** Recruit Alex as ally, gain Archive/Socket information, OR obtain his tablet

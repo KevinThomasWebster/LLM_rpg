@@ -1,5 +1,8 @@
 # The Sanctum Sanctorum - Quick Reference
 
+**[Sub-Level Omega: Executive Sanctums]**
+*Depth Effect: Power and damnation intertwine. The Auditor's presence is palpable—fleeting tall shadows, feeling of being judged by something inhuman. DC 14 Wisdom save when touching Special Commission Lulus or suffer psychic flash (1d4 psychic damage).*
+
 ## At a Glance
 - **Location:** Ms. Reed's Office (Chimera Wing command center)
 - **Factions Present:** 🏢 Architects (The Watcher, Ms. Reed incoming)
@@ -142,6 +145,12 @@
 - [ ] **The Auditor's Existence** (ATMOSPHERIC) - Infernal observer confirmed
   - *Discovery Method:* Witness shadow phenomena in office
   - *Reveals:* Secret #7 (The Infernal Observer) - Xaphan has representative watching the operation
+
+- [ ] **Holy Water Vials** (ITEM DISCOVERY - PRIMARY) - "Synergy Pacification Spray"
+  - *Discovery Method:* DC 14 Sleight of Hand to pick locked desk drawer OR automatically unlock if terminal hacked
+  - *Found:* 2 vials of holy water + confidential memo
+  - *Memo Reveals:* Reed instructs staff to use holy water on aggressive Lulus, orders them NOT to ask about origin, frames it as "chemical formula" when it's actually consecrated water from St. Michael's Cathedral
+  - *Significance:* Reed knows facility is demonically tainted, uses holy water as both safeguard and penance
 
 ## Win Conditions
 - **Players:** Obtain evidence (Brass Contract, Tithe records), OR complete Socket's upload, OR gain Reed memory revelation, THEN escape

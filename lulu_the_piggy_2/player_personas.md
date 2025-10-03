@@ -1,6 +1,8 @@
 # Player Personas
 
-This document outlines three distinct player personas for "Lulu the Piggy 2: The Brass Contract." Each persona is designed to excel in a different aspect of the adventure, encouraging teamwork and providing multiple avenues to solve problems.
+This document outlines six distinct player personas for "Lulu the Piggy 2: The Brass Contract." Each persona is designed to excel in a different aspect of the adventure, encouraging teamwork and providing multiple avenues to solve problems.
+
+**Party Size:** This adventure supports 3-6 players. For smaller groups (3 players), use Personas 1-3. For larger groups (4-6 players), add Personas 4-6 as needed.
 
 ## Persona 1: The Method Actor
 
