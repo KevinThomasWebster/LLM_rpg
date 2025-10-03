@@ -1,0 +1,410 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/yourusername/llm-dnd-adventure/schemas/playtest_data_schema.json",
+  "title": "Playtest Data Schema",
+  "description": "JSON schema for structured playtest data to enable quantitative analysis of D&D encounters",
+  "type": "object",
+  "required": ["playtest_id", "encounter", "metadata", "character_actions", "spotlight_distribution", "clues_discovered", "win_condition"],
+  "properties": {
+    "playtest_id": {
+      "type": "string",
+      "description": "Unique identifier for this playtest run",
+      "pattern": "^playtest_[0-9]+$",
+      "examples": ["playtest_1", "playtest_2", "playtest_3"]
+    },
+    "encounter": {
+      "type": "string",
+      "description": "Name of the encounter being tested",
+      "minLength": 1,
+      "examples": ["The_First_Signal", "Confronting_Heartbreak", "Escape_From_Floor_Four"]
+    },
+    "metadata": {
+      "type": "object",
+      "description": "High-level metadata about the playtest run",
+      "required": ["duration_minutes", "stages_completed", "dice_seed", "pc_approach"],
+      "properties": {
+        "duration_minutes": {
+          "type": "integer",
+          "description": "Approximate real-world duration of the playtest in minutes",
+          "minimum": 1,
+          "examples": [32, 45, 60]
+        },
+        "stages_completed": {
+          "type": "integer",
+          "description": "Number of encounter stages completed (typically 1-4)",
+          "minimum": 1,
+          "maximum": 4,
+          "examples": [4, 3, 2]
+        },
+        "dice_seed": {
+          "type": "integer",
+          "description": "Seed used for dice_roller.py to ensure reproducibility",
+          "minimum": 1,
+          "examples": [1000, 1001, 1002]
+        },
+        "pc_approach": {
+          "type": "string",
+          "description": "Primary approach taken by player characters",
+          "enum": ["mixed", "stealth", "combat", "social", "investigation"],
+          "examples": ["mixed", "stealth", "social"]
+        },
+        "dm_notes": {
+          "type": "string",
+          "description": "Optional freeform notes from the DM about this run",
+          "examples": ["Players bypassed Stage 2 entirely by convincing Ms. Reed early"]
+        }
+      }
+    },
+    "character_actions": {
+      "type": "array",
+      "description": "Array of all meaningful PC actions during the encounter",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["round", "character", "action_type", "description", "impact"],
+        "properties": {
+          "round": {
+            "type": "integer",
+            "description": "Round number when action occurred",
+            "minimum": 1,
+            "examples": [1, 2, 3]
+          },
+          "character": {
+            "type": "string",
+            "description": "Name of the player character taking the action",
+            "minLength": 1,
+            "examples": ["Alex", "Casey", "Ben"]
+          },
+          "action_type": {
+            "type": "string",
+            "description": "Category of action taken",
+            "enum": ["investigate", "combat", "social", "stealth", "support", "magic", "other"],
+            "examples": ["investigate", "social", "combat"]
+          },
+          "skill_check": {
+            "type": "string",
+            "description": "D&D skill used for this action (if applicable)",
+            "examples": ["Insight", "Persuasion", "Investigation", "Stealth", "Arcana"]
+          },
+          "roll": {
+            "type": "integer",
+            "description": "Dice roll result (d20 only, before modifiers)",
+            "minimum": 1,
+            "maximum": 20,
+            "examples": [14, 7, 20, 1]
+          },
+          "modifier": {
+            "type": "integer",
+            "description": "Modifier applied to the roll",
+            "examples": [3, -1, 5]
+          },
+          "total": {
+            "type": "integer",
+            "description": "Final total after adding roll + modifier",
+            "minimum": 1,
+            "examples": [17, 6, 25]
+          },
+          "dc": {
+            "type": "integer",
+            "description": "Difficulty Class for the check (if applicable)",
+            "minimum": 1,
+            "examples": [12, 15, 18]
+          },
+          "success": {
+            "type": "boolean",
+            "description": "Whether the action succeeded",
+            "examples": [true, false]
+          },
+          "description": {
+            "type": "string",
+            "description": "Brief description of what the character attempted",
+            "minLength": 1,
+            "examples": [
+              "Studies Ms. Reed for deception",
+              "Attempts to pick the lock on the filing cabinet",
+              "Casts Detect Magic on the contract"
+            ]
+          },
+          "impact": {
+            "type": "string",
+            "description": "How much impact this action had on the encounter outcome",
+            "enum": ["high", "medium", "low"],
+            "examples": ["high", "medium", "low"]
+          },
+          "spotlight_moment": {
+            "type": "boolean",
+            "description": "Whether this was a significant spotlight moment for this character",
+            "default": false,
+            "examples": [true, false]
+          },
+          "consequences": {
+            "type": "string",
+            "description": "Optional description of what happened as a result of this action",
+            "examples": [
+              "Ms. Reed broke down and revealed the truth about Floor 4",
+              "Triggered alarm, alerting security imps",
+              "Decrypted the journal, revealing Rem's location"
+            ]
+          }
+        }
+      }
+    },
+    "spotlight_distribution": {
+      "type": "object",
+      "description": "Count of meaningful actions per character (used to calculate percentages)",
+      "patternProperties": {
+        "^[A-Za-z]+$": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of meaningful actions for this character"
+        }
+      },
+      "examples": [
+        {"Alex": 7, "Casey": 9, "Ben": 5},
+        {"Alex": 12, "Casey": 8, "Ben": 10}
+      ]
+    },
+    "clues_discovered": {
+      "type": "array",
+      "description": "Array of clues/secrets discovered during this playtest",
+      "items": {
+        "type": "object",
+        "required": ["clue_id", "discovery_round", "discovered_by", "method"],
+        "properties": {
+          "clue_id": {
+            "type": "string",
+            "description": "Identifier matching secrets_and_clues.md",
+            "examples": ["secret_1", "secret_2", "clue_heartbreak_betrayal"]
+          },
+          "discovery_round": {
+            "type": "integer",
+            "description": "Round when the clue was discovered",
+            "minimum": 1,
+            "examples": [3, 5, 8]
+          },
+          "discovered_by": {
+            "type": "string",
+            "description": "Character who discovered the clue",
+            "minLength": 1,
+            "examples": ["Alex", "Casey", "Ben"]
+          },
+          "method": {
+            "type": "string",
+            "description": "How the clue was discovered",
+            "examples": [
+              "Investigation check on filing cabinet",
+              "Persuasion check on Ms. Reed",
+              "Detect Magic spell on contract",
+              "Overheard conversation while hidden"
+            ]
+          },
+          "dc_required": {
+            "type": "integer",
+            "description": "DC required to discover this clue (if skill check)",
+            "minimum": 1,
+            "examples": [12, 15, 18]
+          },
+          "total_rolled": {
+            "type": "integer",
+            "description": "Total rolled to discover this clue (if skill check)",
+            "minimum": 1,
+            "examples": [17, 14, 20]
+          }
+        }
+      }
+    },
+    "props_used": {
+      "type": "array",
+      "description": "Array of props/items interacted with during this playtest",
+      "items": {
+        "type": "object",
+        "required": ["prop_id", "used_round", "used_by", "usage"],
+        "properties": {
+          "prop_id": {
+            "type": "string",
+            "description": "Identifier matching prop in adventure documents",
+            "examples": ["encrypted_journal", "infernal_contract", "security_keycard"]
+          },
+          "used_round": {
+            "type": "integer",
+            "description": "Round when the prop was used",
+            "minimum": 1,
+            "examples": [8, 12, 4]
+          },
+          "used_by": {
+            "type": "string",
+            "description": "Character who used the prop",
+            "minLength": 1,
+            "examples": ["Alex", "Casey", "Ben"]
+          },
+          "usage": {
+            "type": "string",
+            "description": "How the prop was used",
+            "examples": [
+              "Attempted decryption with Arcana check",
+              "Used to bypass locked door",
+              "Presented to Ms. Reed as evidence"
+            ]
+          },
+          "success": {
+            "type": "boolean",
+            "description": "Whether the prop usage succeeded",
+            "examples": [true, false]
+          },
+          "consequences": {
+            "type": "string",
+            "description": "What happened as a result of using the prop",
+            "examples": [
+              "Journal decrypted, revealing Rem's safe house location",
+              "Door unlocked, but triggered silent alarm",
+              "Ms. Reed panicked and fled the scene"
+            ]
+          }
+        }
+      }
+    },
+    "win_condition": {
+      "type": "string",
+      "description": "Which win condition was achieved at the end of the encounter",
+      "minLength": 1,
+      "examples": [
+        "escaped_with_journal_and_rem_contact",
+        "defeated_all_enemies",
+        "convinced_npc_to_cooperate",
+        "faction_victory_shadow_court",
+        "draw_no_clear_winner"
+      ]
+    },
+    "stages_reached": {
+      "type": "array",
+      "description": "Array of encounter stages reached during this playtest",
+      "items": {
+        "type": "string",
+        "enum": ["stage_1_hook", "stage_2_complication", "stage_3_escalation", "stage_4_climax"],
+        "examples": ["stage_1_hook", "stage_2_complication", "stage_3_escalation", "stage_4_climax"]
+      },
+      "minItems": 1,
+      "maxItems": 4,
+      "examples": [
+        ["stage_1_hook", "stage_2_complication", "stage_3_escalation", "stage_4_climax"],
+        ["stage_1_hook", "stage_2_complication"],
+        ["stage_1_hook", "stage_4_climax"]
+      ]
+    },
+    "npc_interactions": {
+      "type": "array",
+      "description": "Optional array tracking interactions with NPCs",
+      "items": {
+        "type": "object",
+        "required": ["npc_name", "interaction_type", "outcome"],
+        "properties": {
+          "npc_name": {
+            "type": "string",
+            "description": "Name of the NPC",
+            "examples": ["Ms. Reed", "Heartbreak", "Rem"]
+          },
+          "faction": {
+            "type": "string",
+            "description": "Which faction this NPC belongs to",
+            "examples": ["Corporate", "Shadow Court", "Independent"]
+          },
+          "interaction_type": {
+            "type": "string",
+            "description": "Type of interaction",
+            "enum": ["combat", "negotiation", "deception", "intimidation", "persuasion", "assistance"],
+            "examples": ["negotiation", "intimidation", "assistance"]
+          },
+          "outcome": {
+            "type": "string",
+            "description": "Result of the interaction",
+            "enum": ["success", "failure", "partial", "combat_started"],
+            "examples": ["success", "failure", "partial"]
+          },
+          "relationship_change": {
+            "type": "string",
+            "description": "How the NPC's attitude toward PCs changed",
+            "enum": ["improved", "worsened", "unchanged"],
+            "examples": ["improved", "worsened", "unchanged"]
+          }
+        }
+      }
+    },
+    "faction_outcomes": {
+      "type": "object",
+      "description": "Optional tracking of how each faction fared in the encounter",
+      "patternProperties": {
+        "^[A-Za-z_]+$": {
+          "type": "object",
+          "properties": {
+            "goal_achieved": {
+              "type": "boolean",
+              "description": "Whether this faction achieved their goal"
+            },
+            "losses": {
+              "type": "string",
+              "description": "What this faction lost in the encounter",
+              "examples": ["2 imp guards killed", "Lost leverage over PCs", "Ms. Reed defected"]
+            },
+            "gains": {
+              "type": "string",
+              "description": "What this faction gained in the encounter",
+              "examples": ["Obtained encrypted journal", "Learned PCs' identities", "Secured alliance with Rem"]
+            }
+          }
+        }
+      },
+      "examples": [
+        {
+          "Shadow_Court": {
+            "goal_achieved": false,
+            "losses": "2 imp guards killed",
+            "gains": "Learned PCs are investigating Floor 4"
+          },
+          "Corporate": {
+            "goal_achieved": true,
+            "losses": "Ms. Reed revealed secrets",
+            "gains": "Maintained containment of Floor 4"
+          }
+        }
+      ]
+    },
+    "dm_improvisation": {
+      "type": "array",
+      "description": "Optional array of moments where DM had to improvise beyond written content",
+      "items": {
+        "type": "object",
+        "required": ["round", "situation", "improvised_solution"],
+        "properties": {
+          "round": {
+            "type": "integer",
+            "description": "Round when improvisation was needed",
+            "minimum": 1
+          },
+          "situation": {
+            "type": "string",
+            "description": "What unexpected player action required improvisation",
+            "examples": [
+              "Players attempted to contact Rem directly via email",
+              "Casey tried to intimidate Ms. Reed by threatening to expose her to Shadow Court",
+              "Ben climbed the air vent to Floor 4 instead of using elevator"
+            ]
+          },
+          "improvised_solution": {
+            "type": "string",
+            "description": "How the DM handled the situation",
+            "examples": [
+              "Rem responded with cryptic message offering meeting location",
+              "Ms. Reed panicked and fled, triggering Stage 3 early",
+              "Discovered infernal sigils in vent, requiring Arcana check"
+            ]
+          },
+          "should_incorporate": {
+            "type": "boolean",
+            "description": "Whether this improvisation should be added to official adventure content",
+            "default": false
+          }
+        }
+      }
+    }
+  }
+}

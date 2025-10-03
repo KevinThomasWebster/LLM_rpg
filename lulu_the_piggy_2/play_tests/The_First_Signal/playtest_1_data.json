@@ -1,0 +1,303 @@
+{
+  "playtest_id": "playtest_1",
+  "encounter": "The_First_Signal",
+  "metadata": {
+    "date": "2025-10-01",
+    "duration_minutes": 32,
+    "stages_completed": 4,
+    "dice_seed": 1000,
+    "pc_approach": "mixed"
+  },
+  "character_actions": [
+    {
+      "round": 1,
+      "character": "Alex",
+      "action_type": "investigate",
+      "skill_check": "Insight",
+      "roll": 14,
+      "modifier": 3,
+      "total": 17,
+      "success": true,
+      "description": "Alex notices Rem's frantic signals and understands she's trying to communicate"
+    },
+    {
+      "round": 1,
+      "character": "Casey",
+      "action_type": "investigate",
+      "skill_check": "Perception",
+      "roll": 11,
+      "modifier": 2,
+      "total": 13,
+      "success": true,
+      "description": "Casey spots the specific tablet Rem is indicating"
+    },
+    {
+      "round": 1,
+      "character": "Ben",
+      "action_type": "other",
+      "skill_check": null,
+      "roll": null,
+      "modifier": 0,
+      "total": null,
+      "success": null,
+      "description": "Ben admires workstation technology, misses the signals"
+    },
+    {
+      "round": 2,
+      "character": "Alex",
+      "action_type": "social",
+      "skill_check": "Persuasion",
+      "roll": 16,
+      "modifier": 4,
+      "total": 20,
+      "success": true,
+      "description": "Alex convinces Ben to help create diversion"
+    },
+    {
+      "round": 2,
+      "character": "Casey",
+      "action_type": "movement",
+      "skill_check": null,
+      "roll": null,
+      "modifier": 0,
+      "total": null,
+      "success": null,
+      "description": "Casey moves to retrieve Alex's tablet casually"
+    },
+    {
+      "round": 3,
+      "character": "Casey",
+      "action_type": "investigate",
+      "skill_check": "Technology",
+      "roll": 18,
+      "modifier": 5,
+      "total": 23,
+      "success": true,
+      "description": "Casey attempts to access tablet, discovers Empathy Lock"
+    },
+    {
+      "round": 3,
+      "character": "Ben",
+      "action_type": "social",
+      "skill_check": "Deception",
+      "roll": 9,
+      "modifier": 1,
+      "total": 10,
+      "success": false,
+      "description": "Ben tries to distract First Day Jitters bot, fails awkwardly"
+    },
+    {
+      "round": 4,
+      "character": "Alex",
+      "action_type": "investigate",
+      "skill_check": "Investigation",
+      "roll": 15,
+      "modifier": 3,
+      "total": 18,
+      "success": true,
+      "description": "Alex examines Empathy Lock, reads inscription about 'ambiguous grief'"
+    },
+    {
+      "round": 4,
+      "character": "Casey",
+      "action_type": "hack",
+      "skill_check": "Technology",
+      "roll": 12,
+      "modifier": 5,
+      "total": 17,
+      "success": true,
+      "description": "Casey hacks nearby workstation to access facility map"
+    },
+    {
+      "round": 5,
+      "character": "Alex",
+      "action_type": "other",
+      "skill_check": null,
+      "roll": null,
+      "modifier": 0,
+      "total": null,
+      "success": true,
+      "description": "Alex solves Empathy Lock by drawing bittersweet memory"
+    },
+    {
+      "round": 5,
+      "character": "Ben",
+      "action_type": "investigate",
+      "skill_check": "Investigation",
+      "roll": 13,
+      "modifier": 1,
+      "total": 14,
+      "success": true,
+      "description": "Ben discovers hidden messages under desk"
+    },
+    {
+      "round": 6,
+      "character": "Casey",
+      "action_type": "hack",
+      "skill_check": "Technology",
+      "roll": 19,
+      "modifier": 5,
+      "total": 24,
+      "success": true,
+      "description": "Casey hacks First Day Jitters bot to slow it down"
+    },
+    {
+      "round": 7,
+      "character": "Alex",
+      "action_type": "other",
+      "skill_check": null,
+      "roll": null,
+      "modifier": 0,
+      "total": null,
+      "success": true,
+      "description": "Alex retrieves Rem's Journal from opened lockbox"
+    },
+    {
+      "round": 7,
+      "character": "Ben",
+      "action_type": "social",
+      "skill_check": "Persuasion",
+      "roll": 11,
+      "modifier": 1,
+      "total": 12,
+      "success": false,
+      "description": "Ben attempts to calm approaching Security Lulus, fails"
+    },
+    {
+      "round": 8,
+      "character": "Casey",
+      "action_type": "other",
+      "skill_check": null,
+      "roll": null,
+      "modifier": 0,
+      "total": null,
+      "success": true,
+      "description": "Casey discovers pneumatic tube system on facility map"
+    },
+    {
+      "round": 8,
+      "character": "Alex",
+      "action_type": "social",
+      "skill_check": "Insight",
+      "roll": 17,
+      "modifier": 3,
+      "total": 20,
+      "success": true,
+      "description": "Alex reads Rem's emotional state, establishes trust"
+    },
+    {
+      "round": 9,
+      "character": "Casey",
+      "action_type": "other",
+      "skill_check": null,
+      "roll": null,
+      "modifier": 0,
+      "total": null,
+      "success": true,
+      "description": "Casey creates diversion using pneumatic tubes"
+    },
+    {
+      "round": 9,
+      "character": "Ben",
+      "action_type": "attack",
+      "skill_check": null,
+      "roll": 12,
+      "modifier": 3,
+      "total": 15,
+      "success": true,
+      "description": "Ben physically delays one Security Lulu"
+    },
+    {
+      "round": 10,
+      "character": "Alex",
+      "action_type": "movement",
+      "skill_check": null,
+      "roll": null,
+      "modifier": 0,
+      "total": null,
+      "success": null,
+      "description": "Alex leads escape through service corridor indicated by Rem"
+    },
+    {
+      "round": 10,
+      "character": "Casey",
+      "action_type": "hack",
+      "skill_check": "Technology",
+      "roll": 14,
+      "modifier": 5,
+      "total": 19,
+      "success": true,
+      "description": "Casey locks door behind party to slow pursuit"
+    },
+    {
+      "round": 10,
+      "character": "Ben",
+      "action_type": "other",
+      "skill_check": "Athletics",
+      "roll": 16,
+      "modifier": 2,
+      "total": 18,
+      "success": true,
+      "description": "Ben helps everyone through narrow service corridor quickly"
+    }
+  ],
+  "spotlight_distribution": {
+    "Alex": 7,
+    "Casey": 9,
+    "Ben": 5
+  },
+  "clues_discovered": [
+    "Rem's Journal (from Alex's tablet)",
+    "Facility Map (from hacked workstation)",
+    "Hidden Messages (from under desk)"
+  ],
+  "props_used": [
+    "Alex's Tablet",
+    "Empathy Lock",
+    "Pneumatic Tubes (diversion)",
+    "Service Corridor (escape)"
+  ],
+  "win_condition": "escaped_with_journal_and_rem_contact",
+  "stages": {
+    "hook": {
+      "rounds": 2,
+      "duration_estimate": "6 minutes"
+    },
+    "complication": {
+      "rounds": 3,
+      "duration_estimate": "9 minutes"
+    },
+    "escalation": {
+      "rounds": 3,
+      "duration_estimate": "10 minutes"
+    },
+    "climax": {
+      "rounds": 2,
+      "duration_estimate": "7 minutes"
+    }
+  },
+  "improvised_content": [
+    "First Day Jitters bot personality quirks (nervous beeping)",
+    "Pneumatic tube diversion opportunity",
+    "Rem's emotional reaction to players helping",
+    "Hidden messages content specific details"
+  ],
+  "grading": {
+    "immersion": {
+      "score": 5,
+      "notes": "Excellent sensory details (ozone smell, cold light). Empathy Lock puzzle emotionally resonant."
+    },
+    "character_spotlight": {
+      "score": 3,
+      "notes": "Casey dominated technical challenges (43%). Ben underutilized (24%). Alex balanced (33%)."
+    },
+    "clue_interaction": {
+      "score": 4,
+      "notes": "Found 3/4 available clues. Missed Alex's emails (didn't explore tablet fully)."
+    },
+    "path_to_victory": {
+      "score": 5,
+      "notes": "Creative pneumatic tube diversion. Multi-faceted approach (puzzle, hacking, social, physical)."
+    }
+  }
+}

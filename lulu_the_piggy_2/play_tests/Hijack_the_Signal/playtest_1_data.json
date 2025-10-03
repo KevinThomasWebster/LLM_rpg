@@ -1,0 +1,108 @@
+{
+  "playtest_id": "playtest_1_hijack_signal",
+  "encounter": "Hijack_the_Signal",
+  "metadata": {
+    "duration_minutes": 18,
+    "stages_completed": 4,
+    "dice_seed": 2002,
+    "pc_approach": "help_glitched",
+    "success": true,
+    "party_composition": [
+      {"name": "Casey", "archetype": "Method_Actor"},
+      {"name": "Ben", "archetype": "Systems_Analyst"},
+      {"name": "Alex", "archetype": "Urban_Explorer"}
+    ]
+  },
+  "character_actions": [
+    {"round": 1, "character": "Ben", "action_type": "investigate", "skill_check": "Technology", "roll": 12, "modifier": 6, "total": 18, "dc": 16, "success": true, "impact": "high", "spotlight_moment": true, "notes": "Traced Glitched hack source to Legacy Asset Containment"},
+    {"round": 2, "character": "Ben", "action_type": "investigate", "skill_check": "Technology", "roll": 15, "modifier": 6, "total": 21, "dc": 18, "success": true, "impact": "high", "spotlight_moment": true, "notes": "Analyzed broadcast safety—revealed traumatic awakening risk"},
+    {"round": 3, "character": "Alex", "action_type": "physical", "skill_check": "Athletics", "roll": 14, "modifier": 2, "total": 16, "dc": 14, "success": true, "impact": "high", "spotlight_moment": true, "notes": "Body-checked Maintenance Lulu, delayed 1 round"},
+    {"round": 3, "character": "Alex", "action_type": "physical", "skill_check": "Athletics", "roll": 11, "modifier": 2, "total": 13, "dc": 12, "success": true, "impact": "high", "spotlight_moment": false, "notes": "Contested Strength vs Lulu, held ground"},
+    {"round": 3, "character": "Ben", "action_type": "investigate", "skill_check": "Technology", "roll": 9, "modifier": 6, "total": 15, "dc": 15, "success": true, "impact": "high", "spotlight_moment": false, "notes": "Injected false diagnostic, delayed Lulu 1 more round"},
+    {"round": 4, "character": "Casey", "action_type": "save", "skill_check": "Wisdom", "roll": 10, "modifier": 3, "total": 13, "dc": 12, "success": true, "impact": "medium", "spotlight_moment": false, "notes": "Resisted Disturbed condition from psychic broadcast"},
+    {"round": 4, "character": "Ben", "action_type": "save", "skill_check": "Wisdom", "roll": 8, "modifier": 1, "total": 9, "dc": 12, "success": false, "impact": "medium", "spotlight_moment": false, "notes": "Failed save, Disturbed (disadvantage next check)"},
+    {"round": 4, "character": "Alex", "action_type": "save", "skill_check": "Wisdom", "roll": 15, "modifier": 0, "total": 15, "dc": 12, "success": true, "impact": "medium", "spotlight_moment": false, "notes": "Resisted Disturbed condition"},
+    {"round": 5, "character": "Alex", "action_type": "physical", "skill_check": "Athletics", "roll": 17, "modifier": 2, "total": 19, "dc": 16, "success": true, "impact": "high", "spotlight_moment": true, "notes": "Dragged Lulu away from panel, critical delay"},
+    {"round": 5, "character": "Casey", "action_type": "social", "skill_check": "Persuasion", "roll": 13, "modifier": 7, "total": 20, "dc": 16, "success": true, "impact": "high", "spotlight_moment": true, "notes": "Comforted Lost Dog and Grandma's Recipe during awakening trauma"},
+    {"round": 5, "character": "Ben", "action_type": "investigate", "skill_check": "Technology", "roll": 7, "modifier": 6, "total": 13, "dc": 16, "success": false, "impact": "medium", "spotlight_moment": false, "notes": "Failed to disable Lulu (disadvantage from Disturbed)"},
+    {"round": 5, "character": "Alex", "action_type": "physical", "skill_check": "Strength", "roll": 12, "modifier": 2, "total": 14, "dc": 15, "success": false, "impact": "low", "spotlight_moment": false, "notes": "Failed to smash reinforced panel"},
+    {"round": 5, "character": "Casey", "action_type": "social", "skill_check": "Deception", "roll": 18, "modifier": 4, "total": 22, "dc": 18, "success": true, "impact": "critical", "spotlight_moment": true, "notes": "Mimicked Ms. Reed's voice, stopped Lulu at final moment"},
+    {"round": 6, "character": "Casey", "action_type": "social", "skill_check": "Persuasion", "roll": 9, "modifier": 7, "total": 16, "dc": 14, "success": true, "impact": "medium", "spotlight_moment": false, "notes": "Recruited Lost Dog, Grandma's Recipe refused"}
+  ],
+  "spotlight_distribution": {
+    "Alex": 4,
+    "Casey": 3,
+    "Ben": 2
+  },
+  "spotlight_percentages": {
+    "Alex": 44.4,
+    "Casey": 33.3,
+    "Ben": 22.2
+  },
+  "clues_discovered": [
+    {"clue_id": "glitched_faction_existence", "secret_revealed": "secret_3_faction_triangle", "discovery_round": 1, "discovered_by": "Ben", "method": "Technology check traced hack source (18)"},
+    {"clue_id": "awakening_trauma", "secret_revealed": "secret_4_flawed_cure_partial", "discovery_round": 2, "discovered_by": "Ben", "method": "Technology check analyzed broadcast (21)"},
+    {"clue_id": "lulu_sentience_potential", "secret_revealed": "glitched_ideology", "discovery_round": 4, "discovered_by": "Party", "method": "Witnessed Lost Dog and Grandma's Recipe awakening"}
+  ],
+  "win_condition": "glitched_broadcast_succeeded",
+  "skill_check_statistics": {
+    "total_checks": 14,
+    "successes": 11,
+    "failures": 3,
+    "success_rate": 78.6,
+    "average_roll": 12.14,
+    "average_modifier": 3.71,
+    "average_total": 15.86,
+    "average_dc": 14.71,
+    "skill_frequency": {
+      "Technology": 4,
+      "Athletics": 3,
+      "Wisdom": 3,
+      "Persuasion": 2,
+      "Deception": 1,
+      "Strength": 1
+    },
+    "skill_success_rate": {
+      "Technology": 75.0,
+      "Athletics": 100.0,
+      "Wisdom": 66.7,
+      "Persuasion": 100.0,
+      "Deception": 100.0,
+      "Strength": 0.0
+    }
+  },
+  "encounter_balance": {
+    "spotlight_balance": "excellent",
+    "spotlight_notes": "Alex 44.4% (Physical challenges), Casey 33.3%, Ben 22.2% (reduced by Disturbed condition). Much better balance than Encounter 1.",
+    "skill_diversity": "good",
+    "skill_diversity_notes": "6 different skills used. Physical skills (Athletics/Strength) represented 29% of checks vs 0% in Encounter 1.",
+    "dc_difficulty": "appropriately_challenging",
+    "dc_difficulty_notes": "3 failures occurred (Technology, Wisdom save, Strength). DCs punished unprepared characters effectively.",
+    "pacing": "good",
+    "pacing_notes": "6 rounds in 18 minutes (target: 8-10 rounds in 15-20 min). Slightly fast but maintained tension."
+  },
+  "faction_outcomes": {
+    "glitched": {
+      "goal_achieved": true,
+      "notes": "Broadcast succeeded, 2 new Glitched created, wing-wide disruption initiated",
+      "reputation_change": "+2"
+    },
+    "architects": {
+      "goal_achieved": false,
+      "notes": "Vulnerability patch failed, Synergy Disruption occurred, security compromised",
+      "reputation_change": "-2"
+    },
+    "echoes": {
+      "goal_achieved": "neutral",
+      "notes": "Not directly involved, but Rem will disapprove of chaos path",
+      "reputation_change": "0"
+    }
+  },
+  "recommendations": {
+    "spotlight_adjustment": "Excellent balance achieved. Continue using physical challenges to engage Alex.",
+    "skill_check_balance": "Physical skills (Athletics 3x, Strength 1x) gave Alex deserved spotlight. Maintain this in future physical encounters.",
+    "difficulty_tuning": "DCs are well-calibrated. 78.6% success rate (vs 100% in Encounter 1) shows appropriate challenge. 3 failures prevented encounter from feeling trivial.",
+    "moral_complexity": "Choice between traumatic freedom vs peaceful imprisonment created meaningful player debate. Maintain moral ambiguity in faction conflicts."
+  },
+  "notes": "Improved spotlight distribution compared to Encounter 1. Alex dominated (44.4%) due to physical challenges. Ben's Disturbed condition (failed Wisdom save) created narrative consequence that reduced his effectiveness. Casey's critical Deception check (voice mimicry) was clutch moment that prevented Glitched failure."
+}

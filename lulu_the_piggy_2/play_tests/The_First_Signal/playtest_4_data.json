@@ -1,0 +1,319 @@
+{
+  "playtest_id": "playtest_4",
+  "encounter": "The_First_Signal",
+  "metadata": {
+    "duration_minutes": 32,
+    "stages_completed": 4,
+    "dice_seed": 2001,
+    "pc_approach": "mixed",
+    "success": true,
+    "party_composition": [
+      {"name": "Casey", "archetype": "Method_Actor", "primary_stats": "CHA/WIS"},
+      {"name": "Ben", "archetype": "Systems_Analyst", "primary_stats": "INT/DEX"},
+      {"name": "Alex", "archetype": "Urban_Explorer", "primary_stats": "DEX/STR"}
+    ]
+  },
+  "character_actions": [
+    {
+      "round": 1,
+      "character": "Casey",
+      "action_type": "social",
+      "skill_check": "Insight",
+      "roll": 14,
+      "modifier": 3,
+      "total": 17,
+      "dc": 12,
+      "success": true,
+      "description": "Read Rem's emotional state to understand her intentions",
+      "impact": "high",
+      "spotlight_moment": true,
+      "notes": "Established Rem's fear/hope, enabled trust building"
+    },
+    {
+      "round": 2,
+      "character": "Ben",
+      "action_type": "investigate",
+      "skill_check": "Perception",
+      "roll": 11,
+      "modifier": 4,
+      "total": 15,
+      "dc": 14,
+      "success": true,
+      "description": "Observed tablet to identify Empathy Lock mechanism",
+      "impact": "medium",
+      "spotlight_moment": false,
+      "notes": "Discovered puzzle type, guided party strategy"
+    },
+    {
+      "round": 2,
+      "character": "Alex",
+      "action_type": "stealth",
+      "skill_check": "Stealth",
+      "roll": 16,
+      "modifier": 5,
+      "total": 21,
+      "dc": 14,
+      "success": true,
+      "description": "Stealthily approached target tablet using recycling bins as cover",
+      "impact": "high",
+      "spotlight_moment": true,
+      "notes": "Critical positioning, avoided security detection"
+    },
+    {
+      "round": 2,
+      "character": "Casey",
+      "action_type": "social",
+      "skill_check": "Deception",
+      "roll": 9,
+      "modifier": 4,
+      "total": 13,
+      "dc": 13,
+      "success": true,
+      "description": "Distracted First Day Jitters Bot with fake creative query",
+      "impact": "medium",
+      "spotlight_moment": false,
+      "notes": "Bought 1 round delay for Alex, narrow success"
+    },
+    {
+      "round": 3,
+      "character": "Alex",
+      "action_type": "stealth",
+      "skill_check": "Sleight_of_Hand",
+      "roll": 8,
+      "modifier": 5,
+      "total": 13,
+      "dc": 13,
+      "success": true,
+      "description": "Grabbed tablet during Rem's cleaning solution distraction",
+      "impact": "high",
+      "spotlight_moment": true,
+      "notes": "Narrowly avoided camera detection, obtained journal"
+    },
+    {
+      "round": 4,
+      "character": "Casey",
+      "action_type": "social",
+      "skill_check": "Persuasion",
+      "roll": 18,
+      "modifier": 7,
+      "total": 25,
+      "dc": 15,
+      "success": true,
+      "description": "Solved Empathy Lock by drawing emotionally resonant image",
+      "impact": "critical",
+      "spotlight_moment": true,
+      "notes": "Exceptional roll (25), unlocked journal, revealed Secret #1"
+    },
+    {
+      "round": 4,
+      "character": "Ben",
+      "action_type": "investigate",
+      "skill_check": "Technology",
+      "roll": 13,
+      "modifier": 6,
+      "total": 19,
+      "dc": 16,
+      "success": true,
+      "description": "Created digital ghost to distract security cameras",
+      "impact": "high",
+      "spotlight_moment": true,
+      "notes": "Used 3/game ability (Exploit Vulnerability), bought 2-round escape window"
+    },
+    {
+      "round": 5,
+      "character": "Alex",
+      "action_type": "investigate",
+      "skill_check": "Investigation",
+      "roll": 14,
+      "modifier": 3,
+      "total": 17,
+      "dc": 15,
+      "success": true,
+      "description": "Found service corridor escape route avoiding cameras",
+      "impact": "high",
+      "spotlight_moment": false,
+      "notes": "Identified OUT OF ORDER panel leading to maintenance corridor"
+    },
+    {
+      "round": 5,
+      "character": "Casey",
+      "action_type": "social",
+      "skill_check": "Persuasion",
+      "roll": 11,
+      "modifier": 7,
+      "total": 18,
+      "dc": 14,
+      "success": true,
+      "description": "Convinced Rem to abandon post and escape with party",
+      "impact": "high",
+      "spotlight_moment": true,
+      "notes": "Secured Rem as permanent ally, Echo faction alliance formed"
+    },
+    {
+      "round": 6,
+      "character": "Ben",
+      "action_type": "investigate",
+      "skill_check": "Technology",
+      "roll": 10,
+      "modifier": 6,
+      "total": 16,
+      "dc": 14,
+      "success": true,
+      "description": "Hacked service panel to open escape corridor",
+      "impact": "high",
+      "spotlight_moment": false,
+      "notes": "Enabled escape before Security Lulus reached party"
+    },
+    {
+      "round": 7,
+      "character": "Ben",
+      "action_type": "investigate",
+      "skill_check": "Investigation",
+      "roll": 15,
+      "modifier": 6,
+      "total": 21,
+      "dc": 16,
+      "success": true,
+      "description": "Analyzed Rem's Journal for technical details and victim list",
+      "impact": "high",
+      "spotlight_moment": true,
+      "notes": "Revealed Memory Core location, victim names, procedure details"
+    }
+  ],
+  "spotlight_distribution": {
+    "Casey": 5,
+    "Ben": 4,
+    "Alex": 2
+  },
+  "spotlight_percentages": {
+    "Casey": 45.5,
+    "Ben": 36.4,
+    "Alex": 18.2
+  },
+  "clues_discovered": [
+    {
+      "clue_id": "rems_journal",
+      "secret_revealed": "secret_1_memory_heist",
+      "discovery_round": 4,
+      "discovered_by": "Casey",
+      "method": "Solved Empathy Lock with Persuasion check (25)"
+    },
+    {
+      "clue_id": "thorne_xaphan_accord_reference",
+      "secret_revealed": "secret_2_brass_contract_partial",
+      "discovery_round": 7,
+      "discovered_by": "Ben",
+      "method": "Investigation check on journal contents (21)"
+    },
+    {
+      "clue_id": "memory_core_location",
+      "secret_revealed": "facility_layout",
+      "discovery_round": 7,
+      "discovered_by": "Ben",
+      "method": "Investigation check on journal contents (21)"
+    },
+    {
+      "clue_id": "victim_list_david_torres",
+      "secret_revealed": "inmate_roster",
+      "discovery_round": 7,
+      "discovered_by": "Ben",
+      "method": "Investigation check on journal contents (21)"
+    }
+  ],
+  "props_used": [
+    {
+      "prop_id": "rems_journal",
+      "used_round": 4,
+      "used_by": "Casey",
+      "usage": "Unlocked Empathy Lock to access journal contents"
+    },
+    {
+      "prop_id": "alex_tablet",
+      "used_round": 3,
+      "used_by": "Alex",
+      "usage": "Retrieved tablet containing Rem's Journal"
+    },
+    {
+      "prop_id": "service_corridor_panel",
+      "used_round": 6,
+      "used_by": "Ben",
+      "usage": "Hacked panel to open escape route"
+    }
+  ],
+  "win_condition": "escaped_with_journal_and_rem_contact",
+  "stages_reached": [
+    "stage_1_hook",
+    "stage_2_complication",
+    "stage_3_escalation",
+    "stage_4_climax"
+  ],
+  "skill_check_statistics": {
+    "total_checks": 11,
+    "successes": 11,
+    "failures": 0,
+    "success_rate": 100.0,
+    "average_roll": 12.45,
+    "average_modifier": 5.09,
+    "average_total": 17.55,
+    "average_dc": 14.27,
+    "skill_frequency": {
+      "Persuasion": 2,
+      "Technology": 2,
+      "Investigation": 2,
+      "Stealth": 1,
+      "Insight": 1,
+      "Perception": 1,
+      "Deception": 1,
+      "Sleight_of_Hand": 1
+    },
+    "skill_success_rate": {
+      "Persuasion": 100.0,
+      "Technology": 100.0,
+      "Investigation": 100.0,
+      "Stealth": 100.0,
+      "Insight": 100.0,
+      "Perception": 100.0,
+      "Deception": 100.0,
+      "Sleight_of_Hand": 100.0
+    },
+    "skill_impact_distribution": {
+      "high": 7,
+      "medium": 2,
+      "critical": 1,
+      "low": 1
+    },
+    "skills_by_impact": {
+      "critical": ["Persuasion"],
+      "high": ["Insight", "Stealth", "Sleight_of_Hand", "Persuasion", "Technology", "Investigation", "Investigation"],
+      "medium": ["Perception", "Deception"],
+      "low": []
+    }
+  },
+  "encounter_balance": {
+    "spotlight_balance": "moderate_imbalance",
+    "spotlight_notes": "Casey dominated at 45.5% (ideal: 33%). Alex underrepresented at 18.2%. Recommend next encounter favor physical challenges.",
+    "skill_diversity": "excellent",
+    "skill_diversity_notes": "8 different skills used across 11 checks. Good variety prevents one character from dominating.",
+    "dc_difficulty": "moderate",
+    "dc_difficulty_notes": "Average DC 14.27, with average total 17.55. DCs appropriately challenging but not punishing.",
+    "pacing": "excellent",
+    "pacing_notes": "11 meaningful exchanges in 32 minutes (target: 10-12 in 30-35 min). Perfect pacing."
+  },
+  "faction_outcomes": {
+    "architects": {
+      "goal_achieved": false,
+      "notes": "Failed to confiscate journal, lost Rem to Echoes, security breached"
+    },
+    "echoes": {
+      "goal_achieved": true,
+      "notes": "Rem successfully passed journal to players, secured as ally, journal contents revealed"
+    }
+  },
+  "recommendations": {
+    "spotlight_adjustment": "Next encounter should favor Alex (Urban Explorer). Consider Socket's Workshop (physical infiltration) or ventilation system navigation.",
+    "skill_check_balance": "Persuasion was MVP (critical success on Empathy Lock). Ensure future encounters have non-social puzzle solutions to balance spotlight.",
+    "difficulty_tuning": "DCs are well-calibrated. 100% success rate was due to good rolls (avg 12.45 on d20) + reasonable modifiers. Maintain current DC levels.",
+    "pacing_adjustment": "Pacing is perfect. Proactive timeline (3-round bot countdown) created urgency without forcing rushed decisions."
+  },
+  "notes": "Enhanced playtest following v2.0 protocol. All dice rolls logged with seed 2001 for reproducibility. Spotlight distribution slightly favored Casey (Method Actor) due to encounter design (Empathy Lock puzzle + social negotiations). Recommend balancing with physical/technical encounters for Alex and Ben."
+}

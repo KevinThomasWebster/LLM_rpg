@@ -205,3 +205,50 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ========================================
+# D&D Adventure System Specific
+# ========================================
+
+# Playtest Logs (keep structure, ignore generated data)
+# Exclude auto-generated analysis files but keep example data
+play_tests/**/playtest_*_rolls.json
+play_tests/**/playtest_*_analysis.md
+# Keep the example playtest data for reference
+!lulu_the_piggy_2/play_tests/**/playtest_1_data.json
+!lulu_the_piggy_2/play_tests/**/playtest_1_rolls.json
+
+# Python Tool Outputs (temporary/generated files)
+tools/test_output/
+
+# Reference Downloads (if SRD download implemented in future)
+# Keep directory structure but ignore downloaded JSON files
+references/srd/creatures/*.json
+references/srd/spells/*.json
+references/srd/rules/*.json
+
+# Generated Bestiaries (regeneratable from scan)
+references/bestiary/*_bestiary.md
+
+# Scan Reports (regeneratable from adventure content)
+references/scan_reports/*_scan.md
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp

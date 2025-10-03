@@ -1,8 +1,0 @@
-# Inspiration
-
-This adventure draws inspiration from a variety of sources, all of which deal with themes of corporate overreach, psychological horror, and the nature of identity.
-
-*   **Portal 2:** The game's sterile, corporate aesthetic and the dark humor of a malevolent AI are major inspirations for the Chimera Wing. The clinical, yet deeply unsettling, environment of Aperture Science is a direct influence on the design of the facility. The character of GLaDOS, with her passive-aggressive and manipulative personality, is a key inspiration for Ms. Reed.
-*   **Severance (TV Show):** The show's concept of a sinister corporation that surgically divides its employees' memories is a direct influence on the adventure's core premise. The idea of a "work-life balance" that is enforced through a surgical procedure is a powerful and disturbing metaphor for the ways in which corporations can control and dehumanize their employees.
-*   **Black Mirror (TV Show):** The anthology series' exploration of the dark side of technology and its psychological impact on individuals informs the adventure's themes of identity, memory, and corporate overreach. The episode "The Entire History of You," in which characters can record and re-watch their memories, is a particularly relevant source of inspiration.
-*   **The SCP Foundation (Website):** The collaborative fiction project's clinical, scientific tone and its focus on containing anomalous objects and entities inspire the way the corporation documents and categorizes its creations. The idea of a vast, secretive organization that is dedicated to containing and studying supernatural phenomena is a major influence on the overall feel of the adventure.

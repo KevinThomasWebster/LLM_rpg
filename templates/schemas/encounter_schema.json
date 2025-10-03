@@ -1,0 +1,439 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/yourusername/llm-dnd-adventure/schemas/encounter_schema.json",
+  "title": "Encounter Schema",
+  "description": "JSON schema for D&D encounter metadata to enable structured encounter tracking",
+  "type": "object",
+  "required": ["encounter_name", "location", "stages", "npcs_present", "clues_available", "win_conditions"],
+  "properties": {
+    "encounter_name": {
+      "type": "string",
+      "description": "Unique name for this encounter",
+      "minLength": 1,
+      "examples": ["The First Signal", "Confronting Heartbreak", "Escape From Floor Four"]
+    },
+    "location": {
+      "type": "string",
+      "description": "Where this encounter takes place",
+      "minLength": 1,
+      "examples": ["Floor 3 - Security Office", "Rem's Safe House", "The Shadow Court Chambers"]
+    },
+    "encounter_type": {
+      "type": "string",
+      "description": "Primary type of encounter",
+      "enum": ["combat", "social", "investigation", "stealth", "mixed"],
+      "examples": ["mixed", "social", "combat"]
+    },
+    "expected_duration_minutes": {
+      "type": "integer",
+      "description": "Expected real-world duration in minutes",
+      "minimum": 5,
+      "examples": [30, 45, 60]
+    },
+    "party_level": {
+      "type": "integer",
+      "description": "Expected player character level for this encounter",
+      "minimum": 1,
+      "maximum": 20,
+      "examples": [3, 5, 10]
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Intended difficulty rating",
+      "enum": ["easy", "medium", "hard", "deadly"],
+      "examples": ["medium", "hard"]
+    },
+    "stages": {
+      "type": "array",
+      "description": "Array of encounter stages (Hook, Complication, Escalation, Climax)",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["stage_number", "stage_name", "description", "trigger"],
+        "properties": {
+          "stage_number": {
+            "type": "integer",
+            "description": "Stage sequence number (1-4)",
+            "minimum": 1,
+            "maximum": 4,
+            "examples": [1, 2, 3, 4]
+          },
+          "stage_name": {
+            "type": "string",
+            "description": "Name of this stage",
+            "enum": ["The Hook", "The Complication", "The Escalation", "The Climax"],
+            "examples": ["The Hook", "The Complication"]
+          },
+          "description": {
+            "type": "string",
+            "description": "What happens in this stage",
+            "minLength": 1,
+            "examples": [
+              "PCs arrive at security office, find Ms. Reed alone at her desk",
+              "After PCs question her, alarm goes off - security breach on Floor 4",
+              "Shadow Court imps arrive to contain the breach, now PCs are witnesses"
+            ]
+          },
+          "trigger": {
+            "type": "string",
+            "description": "What triggers this stage to begin",
+            "examples": [
+              "PCs enter the security office",
+              "PCs ask Ms. Reed about Floor 4",
+              "PCs attempt to leave or refuse to cooperate",
+              "One faction achieves their goal or time expires"
+            ]
+          },
+          "expected_rounds": {
+            "type": "integer",
+            "description": "Expected number of rounds/exchanges in this stage",
+            "minimum": 1,
+            "examples": [3, 5, 8]
+          },
+          "key_moments": {
+            "type": "array",
+            "description": "Key moments that should happen in this stage",
+            "items": {
+              "type": "string"
+            },
+            "examples": [
+              ["Ms. Reed appears nervous", "PCs notice encrypted journal on desk"],
+              ["Alarm blares", "Ms. Reed panics", "Lights flicker ominously"],
+              ["Imps teleport in", "Ms. Reed tries to flee", "Heartbreak's voice over intercom"]
+            ]
+          },
+          "fallback_options": {
+            "type": "array",
+            "description": "Options if players get stuck in this stage",
+            "items": {
+              "type": "string"
+            },
+            "examples": [
+              ["Rem sends cryptic email", "Ms. Reed breaks down and confesses", "Alarm goes off early"]
+            ]
+          }
+        }
+      }
+    },
+    "npcs_present": {
+      "type": "array",
+      "description": "NPCs present in this encounter",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": ["name", "faction", "role"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "NPC name",
+            "minLength": 1,
+            "examples": ["Ms. Reed", "Heartbreak", "Shadow Imp Guard"]
+          },
+          "faction": {
+            "type": "string",
+            "description": "Which faction this NPC belongs to",
+            "examples": ["Corporate", "Shadow Court", "Independent", "None"]
+          },
+          "role": {
+            "type": "string",
+            "description": "NPC's role in this encounter",
+            "enum": ["primary", "secondary", "minor", "enemy", "ally", "neutral"],
+            "examples": ["primary", "enemy", "neutral"]
+          },
+          "appears_in_stage": {
+            "type": "integer",
+            "description": "Which stage this NPC appears in (1-4)",
+            "minimum": 1,
+            "maximum": 4,
+            "examples": [1, 2, 3]
+          },
+          "stat_block_reference": {
+            "type": "string",
+            "description": "Reference to NPC card or bestiary entry",
+            "examples": ["npc_cards/01_major_npcs.md#ms-reed", "bestiary.md#shadow-imp"]
+          }
+        }
+      }
+    },
+    "creatures_present": {
+      "type": "array",
+      "description": "Creatures/monsters present in combat encounters",
+      "items": {
+        "type": "object",
+        "required": ["name", "count", "cr"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Creature name",
+            "examples": ["Shadow Imp", "Hell Hound", "Infernal Contract Elemental"]
+          },
+          "count": {
+            "type": "integer",
+            "description": "Number of this creature type",
+            "minimum": 1,
+            "examples": [2, 1, 4]
+          },
+          "cr": {
+            "type": "number",
+            "description": "Challenge Rating",
+            "minimum": 0,
+            "examples": [1, 0.5, 5, 0.125]
+          },
+          "appears_in_stage": {
+            "type": "integer",
+            "description": "Which stage this creature appears in",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "stat_block_reference": {
+            "type": "string",
+            "description": "Reference to bestiary entry",
+            "examples": ["bestiary.md#shadow-imp", "references/custom/shadow_imp.json"]
+          }
+        }
+      }
+    },
+    "clues_available": {
+      "type": "array",
+      "description": "Clues/secrets that can be discovered in this encounter",
+      "items": {
+        "type": "object",
+        "required": ["clue_id", "description", "discovery_method"],
+        "properties": {
+          "clue_id": {
+            "type": "string",
+            "description": "Identifier matching secrets_and_clues.md",
+            "examples": ["secret_1", "clue_heartbreak_betrayal"]
+          },
+          "description": {
+            "type": "string",
+            "description": "What the clue reveals",
+            "examples": [
+              "Floor 4 contains an infernal breach, not just classified research",
+              "Heartbreak has been secretly negotiating with both Corporate and Shadow Court"
+            ]
+          },
+          "discovery_method": {
+            "type": "string",
+            "description": "How players can discover this clue",
+            "examples": [
+              "Investigation DC 12 on filing cabinet",
+              "Persuasion DC 15 on Ms. Reed",
+              "Detect Magic spell on contract",
+              "Overhear conversation if hidden with Stealth DC 14"
+            ]
+          },
+          "available_in_stage": {
+            "type": "array",
+            "description": "Which stages this clue is available in",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            },
+            "examples": [[1, 2], [3, 4], [1, 2, 3, 4]]
+          },
+          "importance": {
+            "type": "string",
+            "description": "How critical this clue is to the adventure",
+            "enum": ["critical", "important", "optional"],
+            "examples": ["critical", "important"]
+          }
+        }
+      }
+    },
+    "props_available": {
+      "type": "array",
+      "description": "Props/items that can be interacted with in this encounter",
+      "items": {
+        "type": "object",
+        "required": ["prop_id", "description", "interaction_method"],
+        "properties": {
+          "prop_id": {
+            "type": "string",
+            "description": "Unique identifier for this prop",
+            "examples": ["encrypted_journal", "infernal_contract", "security_keycard"]
+          },
+          "description": {
+            "type": "string",
+            "description": "What the prop is",
+            "examples": [
+              "Leather-bound journal with glowing infernal runes",
+              "Ornate contract written in blood on parchment",
+              "Magnetic keycard with 'LEVEL 4 ACCESS' printed on it"
+            ]
+          },
+          "interaction_method": {
+            "type": "string",
+            "description": "How players can interact with this prop",
+            "examples": [
+              "Arcana DC 15 to decipher runes",
+              "Can be used to open Floor 4 elevator",
+              "Detect Magic reveals infernal aura"
+            ]
+          },
+          "location": {
+            "type": "string",
+            "description": "Where the prop is located in the encounter",
+            "examples": ["On Ms. Reed's desk", "In locked filing cabinet", "Worn on Ms. Reed's lanyard"]
+          },
+          "consequences": {
+            "type": "string",
+            "description": "What happens if prop is used/interacted with",
+            "examples": [
+              "Deciphering reveals Rem's safe house location",
+              "Reading contract aloud summons Heartbreak",
+              "Using keycard triggers silent alarm"
+            ]
+          }
+        }
+      }
+    },
+    "environmental_interactivity": {
+      "type": "array",
+      "description": "Environmental features players can interact with",
+      "items": {
+        "type": "object",
+        "required": ["feature", "interaction"],
+        "properties": {
+          "feature": {
+            "type": "string",
+            "description": "Environmental feature",
+            "examples": ["Filing cabinet", "Computer terminal", "Air vent", "Windows overlooking Floor 4"]
+          },
+          "interaction": {
+            "type": "string",
+            "description": "How players can interact and what happens",
+            "examples": [
+              "Thieves' Tools DC 12 to unlock, contains encrypted journal",
+              "Hacking Tools DC 15 to access, reveals security camera footage",
+              "Athletics DC 10 to climb into, leads to Floor 4 (triggers encounter)",
+              "Looking down reveals shadowy figures and flickering lights"
+            ]
+          },
+          "available_in_stage": {
+            "type": "array",
+            "description": "Which stages this feature is available in",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            }
+          }
+        }
+      }
+    },
+    "win_conditions": {
+      "type": "object",
+      "description": "Win conditions for all factions in this encounter",
+      "required": ["player_party"],
+      "properties": {
+        "player_party": {
+          "type": "array",
+          "description": "Possible win conditions for player characters",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "examples": [
+            ["Escape with journal and Rem's contact info", "Convince Ms. Reed to become ally", "Defeat all enemies and secure Floor 4"]
+          ]
+        }
+      },
+      "patternProperties": {
+        "^[A-Za-z_]+$": {
+          "type": "array",
+          "description": "Win conditions for this faction",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {
+          "player_party": ["Escape with journal and Rem's contact"],
+          "Shadow_Court": ["Eliminate witnesses (PCs)", "Retrieve encrypted journal"],
+          "Corporate": ["Maintain Floor 4 secrecy", "Prevent PCs from reaching Rem"]
+        }
+      ]
+    },
+    "pacing_notes": {
+      "type": "object",
+      "description": "Notes for DM about pacing this encounter",
+      "properties": {
+        "ideal_total_rounds": {
+          "type": "integer",
+          "description": "Ideal total number of rounds/exchanges for full encounter",
+          "minimum": 1,
+          "examples": [12, 15, 20]
+        },
+        "minimum_rounds": {
+          "type": "integer",
+          "description": "Minimum rounds before allowing win condition",
+          "minimum": 1,
+          "examples": [8, 10]
+        },
+        "time_pressure": {
+          "type": "string",
+          "description": "How to create time pressure if PCs dawdle",
+          "examples": [
+            "Every 3 rounds, alarm gets louder and more imps arrive",
+            "After 10 rounds, Heartbreak arrives personally",
+            "Floor 4 breach worsens visibly each round"
+          ]
+        },
+        "spotlight_distribution": {
+          "type": "string",
+          "description": "How to ensure all PCs get spotlight moments",
+          "examples": [
+            "Alex: Investigation/social with Ms. Reed, Casey: Combat/intimidation, Ben: Stealth/environmental interaction",
+            "Ensure at least one skill check per PC per stage"
+          ]
+        }
+      }
+    },
+    "factions_active": {
+      "type": "array",
+      "description": "Which factions are actively pursuing goals in this encounter",
+      "items": {
+        "type": "string"
+      },
+      "examples": [["Shadow Court", "Corporate", "Independent"]]
+    },
+    "dm_notes": {
+      "type": "string",
+      "description": "Freeform notes for DM about running this encounter",
+      "examples": [
+        "This encounter introduces the central mystery of Floor 4. Don't reveal too much in Stage 1 - save big revelations for Stage 3+.",
+        "Ms. Reed should feel sympathetic, not villainous. She's trapped by circumstances."
+      ]
+    },
+    "references": {
+      "type": "object",
+      "description": "References to other documents for this encounter",
+      "properties": {
+        "location_document": {
+          "type": "string",
+          "description": "Path to full location description",
+          "examples": ["02_Locations.md#floor-3-security-office"]
+        },
+        "faction_document": {
+          "type": "string",
+          "description": "Path to faction descriptions",
+          "examples": ["01_Factions.md"]
+        },
+        "session_cheatsheet": {
+          "type": "string",
+          "description": "Path to session cheat sheet for this encounter",
+          "examples": ["dm_materials/session_cheatsheets/01_the_first_signal.md"]
+        },
+        "playtest_folder": {
+          "type": "string",
+          "description": "Path to playtest folder for this encounter",
+          "examples": ["play_tests/The_First_Signal/"]
+        }
+      }
+    }
+  }
+}

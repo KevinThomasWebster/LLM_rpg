@@ -1,0 +1,140 @@
+{
+  "playtest_id": "playtest_4",
+  "seed": 2001,
+  "rolls": [
+    {
+      "round": 1,
+      "character": "Casey",
+      "action": "Insight check on Rem's emotional state",
+      "notation": "1d20+3",
+      "dice_results": [14],
+      "modifier": 3,
+      "total": 17,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 2,
+      "character": "Ben",
+      "action": "Perception check to observe tablet",
+      "notation": "1d20+4",
+      "dice_results": [11],
+      "modifier": 4,
+      "total": 15,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 2,
+      "character": "Alex",
+      "action": "Stealth check to approach tablet via cover",
+      "notation": "1d20+5",
+      "dice_results": [16],
+      "modifier": 5,
+      "total": 21,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 2,
+      "character": "Casey",
+      "action": "Deception check to distract First Day Jitters Bot",
+      "notation": "1d20+4",
+      "dice_results": [9],
+      "modifier": 4,
+      "total": 13,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 3,
+      "character": "Alex",
+      "action": "Sleight of Hand check to grab tablet",
+      "notation": "1d20+5",
+      "dice_results": [8],
+      "modifier": 5,
+      "total": 13,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 4,
+      "character": "Casey",
+      "action": "Persuasion check to solve Empathy Lock",
+      "notation": "1d20+7",
+      "dice_results": [18],
+      "modifier": 7,
+      "total": 25,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 4,
+      "character": "Ben",
+      "action": "Technology check to create digital ghost diversion",
+      "notation": "1d20+6",
+      "dice_results": [13],
+      "modifier": 6,
+      "total": 19,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 5,
+      "character": "Alex",
+      "action": "Investigation check to find escape route",
+      "notation": "1d20+3",
+      "dice_results": [14],
+      "modifier": 3,
+      "total": 17,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 5,
+      "character": "Casey",
+      "action": "Persuasion check to recruit Rem",
+      "notation": "1d20+7",
+      "dice_results": [11],
+      "modifier": 7,
+      "total": 18,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 6,
+      "character": "Ben",
+      "action": "Technology check to hack service panel",
+      "notation": "1d20+6",
+      "dice_results": [10],
+      "modifier": 6,
+      "total": 16,
+      "advantage": false,
+      "disadvantage": false
+    },
+    {
+      "round": 7,
+      "character": "Ben",
+      "action": "Investigation check to analyze Rem's Journal",
+      "notation": "1d20+6",
+      "dice_results": [15],
+      "modifier": 6,
+      "total": 21,
+      "advantage": false,
+      "disadvantage": false
+    }
+  ],
+  "statistics": {
+    "total_rolls": 11,
+    "average_die_result": 12.45,
+    "min_die_result": 8,
+    "max_die_result": 18,
+    "average_modifier": 5.09,
+    "average_total": 17.55,
+    "rolls_with_advantage": 0,
+    "rolls_with_disadvantage": 0,
+    "critical_hits": 1,
+    "critical_misses": 0
+  },
+  "notes": "All rolls generated with seed 2001 for reproducibility. No advantage/disadvantage used in this encounter. One exceptional roll (18 natural, Casey's Persuasion for Empathy Lock) was critical to encounter success."
+}

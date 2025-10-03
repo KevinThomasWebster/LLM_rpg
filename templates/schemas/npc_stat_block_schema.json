@@ -1,0 +1,609 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/yourusername/llm-dnd-adventure/schemas/npc_stat_block_schema.json",
+  "title": "NPC/Creature Stat Block Schema",
+  "description": "JSON schema for D&D 5e NPC and creature stat blocks",
+  "type": "object",
+  "required": ["name", "creature_type", "size", "alignment", "ac", "hp", "speed", "ability_scores", "senses", "languages", "cr"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the NPC or creature",
+      "minLength": 1,
+      "examples": ["Shadow Imp", "Ms. Reed", "Heartbreak the Negotiator"]
+    },
+    "creature_type": {
+      "type": "string",
+      "description": "Type of creature (with subtype in parentheses if applicable)",
+      "examples": ["fiend (devil)", "humanoid (human)", "aberration", "construct"]
+    },
+    "size": {
+      "type": "string",
+      "description": "Size category",
+      "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
+      "examples": ["tiny", "medium", "large"]
+    },
+    "alignment": {
+      "type": "string",
+      "description": "Alignment",
+      "enum": [
+        "lawful good", "neutral good", "chaotic good",
+        "lawful neutral", "true neutral", "chaotic neutral",
+        "lawful evil", "neutral evil", "chaotic evil",
+        "unaligned", "any alignment"
+      ],
+      "examples": ["lawful evil", "neutral good", "chaotic neutral"]
+    },
+    "ac": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "description": "Armor Class (simple number)",
+          "minimum": 1,
+          "examples": [13, 15, 18]
+        },
+        {
+          "type": "object",
+          "description": "Armor Class with source",
+          "required": ["value"],
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "source": {
+              "type": "string",
+              "examples": ["natural armor", "leather armor", "mage armor"]
+            }
+          }
+        }
+      ]
+    },
+    "hp": {
+      "type": "object",
+      "description": "Hit points",
+      "required": ["average"],
+      "properties": {
+        "average": {
+          "type": "integer",
+          "description": "Average hit points",
+          "minimum": 1,
+          "examples": [10, 45, 120]
+        },
+        "formula": {
+          "type": "string",
+          "description": "Hit dice formula",
+          "pattern": "^[0-9]+d[0-9]+([+-][0-9]+)?$",
+          "examples": ["3d4+3", "8d8+16", "15d10+75"]
+        }
+      }
+    },
+    "speed": {
+      "type": "object",
+      "description": "Movement speeds",
+      "required": ["walk"],
+      "properties": {
+        "walk": {
+          "type": "integer",
+          "description": "Walking speed in feet",
+          "minimum": 0,
+          "examples": [30, 25, 40]
+        },
+        "fly": {
+          "type": "integer",
+          "description": "Flying speed in feet",
+          "minimum": 0,
+          "examples": [40, 60, 90]
+        },
+        "swim": {
+          "type": "integer",
+          "description": "Swimming speed in feet",
+          "minimum": 0
+        },
+        "climb": {
+          "type": "integer",
+          "description": "Climbing speed in feet",
+          "minimum": 0
+        },
+        "burrow": {
+          "type": "integer",
+          "description": "Burrowing speed in feet",
+          "minimum": 0
+        },
+        "hover": {
+          "type": "boolean",
+          "description": "Whether flying speed includes hovering",
+          "default": false
+        }
+      }
+    },
+    "ability_scores": {
+      "type": "object",
+      "description": "Six ability scores",
+      "required": ["str", "dex", "con", "int", "wis", "cha"],
+      "properties": {
+        "str": {
+          "type": "integer",
+          "description": "Strength",
+          "minimum": 1,
+          "maximum": 30,
+          "examples": [10, 16, 8]
+        },
+        "dex": {
+          "type": "integer",
+          "description": "Dexterity",
+          "minimum": 1,
+          "maximum": 30,
+          "examples": [14, 12, 18]
+        },
+        "con": {
+          "type": "integer",
+          "description": "Constitution",
+          "minimum": 1,
+          "maximum": 30,
+          "examples": [13, 15, 10]
+        },
+        "int": {
+          "type": "integer",
+          "description": "Intelligence",
+          "minimum": 1,
+          "maximum": 30,
+          "examples": [11, 8, 16]
+        },
+        "wis": {
+          "type": "integer",
+          "description": "Wisdom",
+          "minimum": 1,
+          "maximum": 30,
+          "examples": [12, 14, 10]
+        },
+        "cha": {
+          "type": "integer",
+          "description": "Charisma",
+          "minimum": 1,
+          "maximum": 30,
+          "examples": [14, 10, 18]
+        }
+      }
+    },
+    "saving_throws": {
+      "type": "object",
+      "description": "Saving throw bonuses (only include proficient saves)",
+      "properties": {
+        "str": {"type": "integer", "examples": [3, 5, 8]},
+        "dex": {"type": "integer", "examples": [5, 7, 10]},
+        "con": {"type": "integer", "examples": [4, 6, 9]},
+        "int": {"type": "integer", "examples": [2, 4, 7]},
+        "wis": {"type": "integer", "examples": [3, 5, 8]},
+        "cha": {"type": "integer", "examples": [4, 6, 9]}
+      }
+    },
+    "skills": {
+      "type": "object",
+      "description": "Skill bonuses (only include proficient/expert skills)",
+      "patternProperties": {
+        "^(acrobatics|animal_handling|arcana|athletics|deception|history|insight|intimidation|investigation|medicine|nature|perception|performance|persuasion|religion|sleight_of_hand|stealth|survival)$": {
+          "type": "integer",
+          "minimum": 0,
+          "examples": [3, 5, 7]
+        }
+      }
+    },
+    "damage_vulnerabilities": {
+      "type": "array",
+      "description": "Damage types this creature is vulnerable to",
+      "items": {
+        "type": "string"
+      },
+      "examples": [["fire"], ["radiant", "thunder"]]
+    },
+    "damage_resistances": {
+      "type": "array",
+      "description": "Damage types this creature resists",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        ["cold"],
+        ["bludgeoning, piercing, and slashing from nonmagical attacks"],
+        ["fire", "poison"]
+      ]
+    },
+    "damage_immunities": {
+      "type": "array",
+      "description": "Damage types this creature is immune to",
+      "items": {
+        "type": "string"
+      },
+      "examples": [["fire", "poison"], ["psychic"]]
+    },
+    "condition_immunities": {
+      "type": "array",
+      "description": "Conditions this creature is immune to",
+      "items": {
+        "type": "string",
+        "enum": [
+          "blinded", "charmed", "deafened", "exhaustion", "frightened",
+          "grappled", "incapacitated", "invisible", "paralyzed", "petrified",
+          "poisoned", "prone", "restrained", "stunned", "unconscious"
+        ]
+      },
+      "examples": [["poisoned"], ["charmed", "frightened"]]
+    },
+    "senses": {
+      "type": "array",
+      "description": "Special senses (always include passive Perception)",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "examples": [
+        ["darkvision 120 ft.", "passive Perception 11"],
+        ["blindsight 60 ft.", "passive Perception 14"],
+        ["passive Perception 12"]
+      ]
+    },
+    "languages": {
+      "type": "array",
+      "description": "Languages known (use ['—'] if none)",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "examples": [
+        ["Infernal", "Common"],
+        ["—"],
+        ["telepathy 120 ft."]
+      ]
+    },
+    "cr": {
+      "type": "number",
+      "description": "Challenge Rating",
+      "minimum": 0,
+      "examples": [0, 0.125, 0.25, 0.5, 1, 2, 5, 10, 20, 30]
+    },
+    "proficiency_bonus": {
+      "type": "integer",
+      "description": "Proficiency bonus (optional, calculated from CR if omitted)",
+      "minimum": 2,
+      "maximum": 9,
+      "examples": [2, 3, 4, 5]
+    },
+    "traits": {
+      "type": "array",
+      "description": "Special traits (passive abilities)",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Trait name",
+            "examples": ["Devil's Sight", "Shadow Blend", "Magic Resistance"]
+          },
+          "description": {
+            "type": "string",
+            "description": "Trait description with game mechanics",
+            "examples": [
+              "Magical darkness doesn't impede the imp's darkvision.",
+              "While in dim light or darkness, the imp can take the Hide action as a bonus action.",
+              "The creature has advantage on saving throws against spells and other magical effects."
+            ]
+          }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "description": "Actions the creature can take",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Action name",
+            "examples": ["Sting", "Multiattack", "Fireball", "Invisibility"]
+          },
+          "description": {
+            "type": "string",
+            "description": "Action description with full game mechanics",
+            "examples": [
+              "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 3 (1d6) poison damage.",
+              "The imp makes two attacks: one with its sting and one with its claws.",
+              "The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell)."
+            ]
+          },
+          "attack_bonus": {
+            "type": "integer",
+            "description": "Attack bonus (for attacks)",
+            "examples": [5, 7, 10]
+          },
+          "damage_formula": {
+            "type": "string",
+            "description": "Damage dice formula",
+            "examples": ["1d4+3", "2d6+4", "8d6"]
+          },
+          "damage_type": {
+            "type": "string",
+            "description": "Type of damage dealt",
+            "examples": ["piercing", "slashing", "fire", "psychic"]
+          },
+          "save_dc": {
+            "type": "integer",
+            "description": "Save DC (for abilities requiring saves)",
+            "minimum": 1,
+            "examples": [12, 15, 18]
+          },
+          "save_type": {
+            "type": "string",
+            "description": "Type of save required",
+            "enum": ["str", "dex", "con", "int", "wis", "cha"],
+            "examples": ["dex", "wis", "con"]
+          }
+        }
+      }
+    },
+    "bonus_actions": {
+      "type": "array",
+      "description": "Bonus actions the creature can take",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    },
+    "reactions": {
+      "type": "array",
+      "description": "Reactions the creature can take",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    },
+    "legendary_actions": {
+      "type": "object",
+      "description": "Legendary actions (for legendary creatures only)",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Preamble describing legendary action rules",
+          "examples": [
+            "The creature can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The creature regains spent legendary actions at the start of its turn."
+          ]
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "description"],
+            "properties": {
+              "name": {
+                "type": "string",
+                "examples": ["Detect", "Sting (Costs 2 Actions)", "Teleport"]
+              },
+              "description": {"type": "string"},
+              "cost": {
+                "type": "integer",
+                "description": "Number of legendary actions this costs",
+                "minimum": 1,
+                "maximum": 3,
+                "default": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "lair_actions": {
+      "type": "object",
+      "description": "Lair actions (for creatures with lairs)",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Description of when lair actions occur"
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["description"],
+            "properties": {
+              "description": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "spellcasting": {
+      "type": "object",
+      "description": "Spellcasting trait (if creature can cast spells)",
+      "required": ["ability", "dc", "attack_bonus", "spells"],
+      "properties": {
+        "ability": {
+          "type": "string",
+          "description": "Spellcasting ability",
+          "enum": ["int", "wis", "cha"],
+          "examples": ["cha", "int", "wis"]
+        },
+        "dc": {
+          "type": "integer",
+          "description": "Spell save DC",
+          "minimum": 1,
+          "examples": [12, 15, 18]
+        },
+        "attack_bonus": {
+          "type": "integer",
+          "description": "Spell attack bonus",
+          "examples": [4, 7, 10]
+        },
+        "spells": {
+          "type": "object",
+          "description": "Spells known/prepared by spell level",
+          "properties": {
+            "cantrips": {
+              "type": "array",
+              "items": {"type": "string"},
+              "examples": [["fire bolt", "prestidigitation", "mage hand"]]
+            },
+            "1st_level": {
+              "type": "object",
+              "properties": {
+                "slots": {"type": "integer", "minimum": 0},
+                "spells": {
+                  "type": "array",
+                  "items": {"type": "string"}
+                }
+              }
+            },
+            "2nd_level": {
+              "type": "object",
+              "properties": {
+                "slots": {"type": "integer", "minimum": 0},
+                "spells": {"type": "array", "items": {"type": "string"}}
+              }
+            },
+            "3rd_level": {
+              "type": "object",
+              "properties": {
+                "slots": {"type": "integer", "minimum": 0},
+                "spells": {"type": "array", "items": {"type": "string"}}
+              }
+            }
+          }
+        },
+        "innate": {
+          "type": "boolean",
+          "description": "Whether this is innate spellcasting (no components)",
+          "default": false
+        }
+      }
+    },
+    "based_on": {
+      "type": "string",
+      "description": "SRD creature this custom stat block is based on (if applicable)",
+      "examples": ["Imp (SRD)", "Veteran (SRD)", "Archmage (SRD)"]
+    },
+    "modifications": {
+      "type": "string",
+      "description": "Summary of modifications from base creature",
+      "examples": [
+        "Added Shadow Blend trait, increased Stealth bonus, changed size to Tiny",
+        "Replaced longsword with infernal weapon dealing fire damage",
+        "Added legendary actions and lair actions"
+      ]
+    },
+    "roleplay": {
+      "type": "object",
+      "description": "Optional roleplay information for NPCs",
+      "properties": {
+        "motivation": {
+          "type": "string",
+          "description": "What drives this NPC",
+          "examples": [
+            "Protect Floor 4 secret at all costs to save her job",
+            "Maximize profit from both Corporate and Shadow Court",
+            "Escape infernal servitude and regain mortality"
+          ]
+        },
+        "voice": {
+          "type": "string",
+          "description": "Voice and mannerisms",
+          "examples": [
+            "Nervous, stutters when lying, fidgets with security badge",
+            "Smooth and confident, speaks in legal jargon, never breaks eye contact",
+            "Raspy whisper, speaks in rhymes, disappears mid-sentence"
+          ]
+        },
+        "faction": {
+          "type": "string",
+          "description": "Which faction this NPC belongs to",
+          "examples": ["Corporate", "Shadow Court", "Independent"]
+        },
+        "loyalty": {
+          "type": "string",
+          "description": "NPC's current loyalty status",
+          "examples": [
+            "Loyal to Corporate, but wavering due to guilt",
+            "Loyal to highest bidder - currently Shadow Court",
+            "No loyalty - only self-preservation"
+          ]
+        },
+        "betrayal_conditions": {
+          "type": "array",
+          "description": "Conditions under which NPC might betray their faction",
+          "items": {"type": "string"},
+          "examples": [
+            ["Threatened with exposure to superiors", "Offered witness protection"],
+            ["Better offer from competing faction", "Life threatened"],
+            ["Discovers faction lied about his redemption"]
+          ]
+        },
+        "secrets_known": {
+          "type": "array",
+          "description": "Which secrets/clues this NPC knows",
+          "items": {"type": "string"},
+          "examples": [
+            ["secret_1", "secret_3", "clue_floor_4_breach"],
+            ["secret_2", "clue_heartbreak_betrayal"]
+          ]
+        },
+        "revelation_conditions": {
+          "type": "array",
+          "description": "Conditions under which NPC reveals secrets",
+          "items": {"type": "string"},
+          "examples": [
+            ["Persuasion DC 15 + genuine empathy shown", "Threatened with evidence of her complicity"],
+            ["Offered better deal than current contract", "Shown proof of Heartbreak's betrayal"]
+          ]
+        }
+      }
+    },
+    "combat_tactics": {
+      "type": "object",
+      "description": "Optional combat behavior guidance",
+      "properties": {
+        "opening_move": {
+          "type": "string",
+          "examples": [
+            "Turn invisible and move to advantageous position",
+            "Cast Shield and prepare Counterspell",
+            "Flee and alert reinforcements"
+          ]
+        },
+        "preferred_strategy": {
+          "type": "string",
+          "examples": [
+            "Hit-and-run with Invisibility between attacks",
+            "Focus fire on spellcasters, use Counterspell liberally",
+            "Avoid combat entirely if possible"
+          ]
+        },
+        "retreat_condition": {
+          "type": "string",
+          "examples": [
+            "Flees at 5 HP or below",
+            "Retreats if allies are defeated or outnumbered 2:1",
+            "Never retreats - fights to the death"
+          ]
+        },
+        "special_notes": {
+          "type": "string",
+          "examples": [
+            "Will negotiate if cornered rather than fight",
+            "Uses lair actions to separate party members",
+            "Targets whoever has the encrypted journal"
+          ]
+        }
+      }
+    }
+  }
+}
